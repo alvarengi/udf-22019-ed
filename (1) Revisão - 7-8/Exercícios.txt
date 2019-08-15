@@ -1,0 +1,5 @@
+1) Elabore um programa Java que:
+a) Solicite um conjunto de 15 valores inteiros ao usuário armazenando estes valores num vetor.
+b) Ao final apresente os valores armazenados para conferência do usuário.
+
+Enviar o código para antonio.lima@udf.edu.br
