@@ -35,6 +35,8 @@ public class metodosOrdenacao {
 		//Descomente aqui o método de ordenação desejado
 		//bubbleSort(v);
 		//selectionSort(v);
+		//insertionSort(v);
+		//quickSort(v);
 		
 		//Começo da apresentação dos dados inseridos no array no output
         System.out.print("\n\n\t\t\t\t\t[ ");
@@ -49,20 +51,19 @@ public class metodosOrdenacao {
     }
 
 
-	//A implementação do Bubble Sort aqui foi realizada parte com meu
-	//entendimento do funcionamento deste, parte com o conteúdo do slide
-	public static void bubbleSort(int v[]){
-        int t = 0;
-
-        for(int i=0; i<v.length; i++){
-            for(int j=0; j<v.length-1-i; j++){
-                if(v[j] > v[j+1]){
-                    t = v[j];
-                    v[j] = v[j+1];
-                    v[j+1] = t;
-                }
-            }
-        }
+	//Implementação do Bubble Sort de acordo com os slides
+	public static void bubbleSort(int vetor[]){
+        int aux;
+		int tam = vetor.length;
+		for(int i = 0; i < tam - 1; i++){
+			for(int j=0; j < tam - 1 - i; j++){
+				if(vetor[j] > vetor[j+1]){
+					aux = vetor[j];
+					vetor[j] = vetor[j+1];
+					vetor[j+1] = aux;
+				}
+			}
+		}
 	}
 	
 	//Implementação do Selection Sort de acordo com os slides
@@ -80,5 +81,47 @@ public class metodosOrdenacao {
             }
         }
 	}
+	
+	//Implementação do Insertion Sort de acordo com os slides
+	public static void insertionSort(int vetor[]){
+	    int aux;
+        int tam = vetor.length;
+        int j;
 
+        for (int i = 1; i < tam; i++) {
+            aux = vetor[i];
+            j = i - 1;
+            while (j >= 0 && aux < vetor[j]) {
+                vetor[j + 1] = vetor[j];
+                j--;
+            }
+            
+            vetor[j + 1] = aux;
+        }	
+	}
+	
+	//Implementação do Quick Sort de acordo com os slides
+	public static void quickSort(int vetor[]){
+		quickSort(vetor, 0, vetor.length-1);
+	}
+	
+	public static void quickSort(int vetor[], int i, int s){
+		int e=i, d=s;
+		int item = vetor[((e+d)/2)];
+		while(e <= d) {
+			while(vetor[e] < item) e++;
+			while(vetor[d] > item) d--;
+			if(e <= d){
+				int aux; //Variável auxiliar para as trocas
+				aux = vetor[e];
+				vetor[e] = vetor[d];
+				vetor[d] = aux;
+				d--;
+				e++;
+			}
+		}
+		
+		if(d - i > 0) quickSort(vetor, i, d);
+		if(s - e > 0) quickSort(vetor, e, s);
+	}
 }
