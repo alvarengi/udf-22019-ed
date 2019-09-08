@@ -8,103 +8,80 @@ import java.io.PrintWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Locale;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class metodosOrdenacao {
+
+    static long comparacoesQuickSort = 0;
+    static long trocasQuickSort = 0;
+    static String formato = ".txt";
+    static String arquivo = "sortingBenchmark_" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd-MM-yyyy_HH-mm")) + formato;
 
     public static void main(String[] args) {
         Locale.setDefault(new Locale("pt", "BR"));
 
-        char escolha = '\0';
-        String arquivo = "teste.txt";
+        for(int i = 0; i <= 10; i++){
+            for(int j = 2; j <= 262144; j *= 2){
 
-        //Declaração de variável para armazenar o inteiro representando o tamanho do array
-        int n = 0;
-
-        //Declaração do Scanner para leitura dos dados digitados pelo usuário no console
-        Scanner leia = new Scanner(System.in);
-
-        System.out.print("Insira o tamanho (inteiro) do array desejado: ");
-        n = leia.nextInt();
-
-        //Declaração de um array multidimensional para armazenar o vetor e suas cópias
-        int[][] v = new int[4][n];
-
-        preencheVetor(v);
-
-        try{
-            escreveEmArquivo("v[" + v.length + "] = { ", arquivo);
-            for (int valor : v[0] )
-                escreveEmArquivo(valor + " ", arquivo);
-            escreveEmArquivo("}", arquivo);
-        }catch(IOException e){
-            e.printStackTrace();
+                try{
+                    escreveEmArquivo("\nsortingBenchmark_" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd-MM-yyyy_HH-mm")) + "\n");                
+                }catch(IOException e){
+                    e.printStackTrace();
+                }
+                
+                System.out.println("======================================================= v[" + j + "] ======================================================");
+                System.out.println("Ordenação de v[" + j + "] iniciada.");
+                sortingBenchmark(j);
+                System.out.println("========================================================= FIM! =========================================================\n");
+            }
         }
-
-        System.out.print("Deseja submeter o vetor à ordenação? (S/N) ");
-        escolha = leia.next().charAt(0);
-        escolha = Character.toLowerCase(escolha);
-        
-        if(escolha == 'n'){
-            System.exit(0);
-        }
-
-        System.out.println("==== MÉTODOS DE ORDENAÇÃO ====");
-        System.out.println("\t(b)ubble Sort");
-        System.out.println("\t(s)election Sort");
-        System.out.println("\t(i)nsertion Sort");
-        System.out.println("\t(q)uick Sort");
-        System.out.println("\t(t)odos os métodos");
-        System.out.println("================================");
-        System.out.print("Selecione o método de ordenação [b, s, i, q, t]: ");
-        escolha = leia.next().charAt(0);
-        escolha = Character.toLowerCase(escolha);
-        leia.close();
-
-        switch(escolha){
-            case 'b':
-            bubbleSort(v[0], arquivo);
-            break;
-            
-            case 's':
-            selectionSort(v[0], arquivo);
-            break;
-            
-            case 'i':
-            insertionSort(v[0], arquivo);
-            break;
-            
-            case 'q': 
-            quickSort(v[0]);
-            break;
-
-            case 't':
-            bubbleSort(v[0], arquivo);
-            selectionSort(v[1], arquivo);
-            insertionSort(v[2], arquivo);
-            quickSort(v[3]);
-            break;
-            
-            default:
-            System.exit(0);
-        }
-
-        try{
-            escreveEmArquivo("\n\nv[" + v.length + "] = { ", arquivo);
-            for (int valor : v[0] )
-                escreveEmArquivo(valor + " ", arquivo);
-            escreveEmArquivo("}", arquivo);
-        }catch(IOException e){
-            e.printStackTrace();
-        }
-
     }
 
-    //Implementação do Bubble Sort de acordo com os slides
-    public static void bubbleSort(int vetor[], String arquivo) {
-        long duracao = System.nanoTime();
-        int comparacoes = 0,
-            trocas = 0,
-            aux = 0,
+    public static void sortingBenchmark(int tamanhoVetor){
+        System.out.println("Alocando...");
+
+        int[][] v = new int[4][tamanhoVetor];
+
+        System.out.println("Vetor alocado!");
+
+        System.out.println("Preenchendo...");
+        preencheVetor(v);
+        System.out.println("Vetor preenchido!");
+
+        try{
+            escreveEmArquivo("\nv[" + v[0].length + "] = { ");
+            for (int valor : v[0] )
+                escreveEmArquivo(valor + " ");
+            escreveEmArquivo("}");
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+        
+        bubbleSort(v[0]);
+        System.out.println("Bubble Sort concluído!");
+        selectionSort(v[1]);
+        System.out.println("Selection Sort concluído!");
+        insertionSort(v[2]);
+        System.out.println("Insertion Sort concluído!");
+        quickSort(v[3]);
+        System.out.println("Quick Sort concluído!");
+
+        try{
+            escreveEmArquivo("\n\nv[" + v[0].length + "] = { ");
+            for (int valor : v[0] )
+                escreveEmArquivo(valor + " ");
+            escreveEmArquivo("}");
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+    }
+
+    public static void bubbleSort(int vetor[]) {
+        long duracao = System.nanoTime(),
+			comparacoes = 0,
+            trocas = 0;
+		int aux = 0,
             tam = vetor.length;
         for (int i = 0; i < tam - 1; i++) {
             for (int j = 0; j < tam - 1 - i; j++) {
@@ -120,21 +97,20 @@ public class metodosOrdenacao {
         duracao = System.nanoTime() - duracao;
 
         try{
-            escreveEmArquivo("\n\nDuração Bubble Sort: " + duracao + "ns", arquivo);
-            escreveEmArquivo("\nComparações Bubble Sort: " + comparacoes, arquivo);
-            escreveEmArquivo("\nTrocas Bubble Sort: " + trocas, arquivo);
+            escreveEmArquivo("\n\nDuração Bubble Sort: " + duracao + "ns");
+            escreveEmArquivo("\nComparações Bubble Sort: " + comparacoes);
+            escreveEmArquivo("\nTrocas Bubble Sort: " + trocas);
         }catch(IOException e){
             e.printStackTrace();
         }
     }
 
-    //Implementação do Selection Sort de acordo com os slides
-    public static void selectionSort(int vetor[], String arquivo) {
-        long duracao = System.nanoTime();   
+    public static void selectionSort(int vetor[]) {
+        long duracao = System.nanoTime(),   
+			comparacoes = 0,
+            trocas = 0;
         int aux = 0,
-            comparacoes = 0,
-            trocas = 0,
-            tam = vetor.length;
+			tam = vetor.length;
 
         for (int i = 0; i < tam - 1; i++) {
             for (int j = i + 1; j < tam; j++) {
@@ -151,20 +127,19 @@ public class metodosOrdenacao {
         duracao = System.nanoTime() - duracao;
 
         try{
-            escreveEmArquivo("\n\nDuração Selection Sort: " + duracao + "ns", arquivo);
-            escreveEmArquivo("\nComparações Selection Sort: " + comparacoes, arquivo);
-            escreveEmArquivo("\nTrocas Selection Sort: " + trocas, arquivo);
+            escreveEmArquivo("\n\nDuração Selection Sort: " + duracao + "ns");
+            escreveEmArquivo("\nComparações Selection Sort: " + comparacoes);
+            escreveEmArquivo("\nTrocas Selection Sort: " + trocas);
         }catch(IOException e){
             e.printStackTrace();
         }
     }
 
-    //Implementação do Insertion Sort de acordo com os slides
-    public static void insertionSort(int vetor[], String arquivo) {
-        long duracao = System.nanoTime();
-        int comparacoes = 0,
-            trocas = 0,
-            aux = 0,
+    public static void insertionSort(int vetor[]) {
+        long duracao = System.nanoTime(),
+            comparacoes = 0,
+            trocas = 0;
+        int aux = 0,
             tam = vetor.length,
             j = 0;
 
@@ -184,24 +159,33 @@ public class metodosOrdenacao {
         duracao = System.nanoTime() - duracao;
 
         try{
-            escreveEmArquivo("\n\nDuração Insertion Sort: " + duracao + "ns", arquivo);
-            escreveEmArquivo("\nComparações Insertion Sort: " + comparacoes, arquivo);
-            escreveEmArquivo("\nTrocas Insertion Sort: " + trocas, arquivo);
+            escreveEmArquivo("\n\nDuração Insertion Sort: " + duracao + "ns");
+            escreveEmArquivo("\nComparações Insertion Sort: " + comparacoes);
+            escreveEmArquivo("\nTrocas Insertion Sort: " + trocas);
         }catch(IOException e){
             e.printStackTrace();
         }
     }
 
-    //Implementação do Quick Sort de acordo com os slides
     public static void quickSort(int vetor[]) {
+        long duracao = System.nanoTime();
         quickSort(vetor, 0, vetor.length - 1);
+        duracao = System.nanoTime() - duracao;
+
+        try{
+            escreveEmArquivo("\n\nDuração Quick Sort: " + duracao + "ns");
+            escreveEmArquivo("\nComparações Quick Sort: " + comparacoesQuickSort);
+            escreveEmArquivo("\nTrocas Quick Sort: " + trocasQuickSort);
+        }catch(IOException e){
+            e.printStackTrace();
+        }
     }
 
     public static void quickSort(int vetor[], int i, int s) {
-        long duracao = System.nanoTime();
         int e = i, d = s;
         int item = vetor[((e + d) / 2)];
         while (e <= d) {
+            comparacoesQuickSort++;
             while (vetor[e] < item) {
                 e++;
             }
@@ -215,13 +199,16 @@ public class metodosOrdenacao {
                 vetor[d] = aux;
                 d--;
                 e++;
+                trocasQuickSort++;
             }
         }
 
         if (d - i > 0) {
+            comparacoesQuickSort++;
             quickSort(vetor, i, d);
         }
         if (s - e > 0) {
+            comparacoesQuickSort++;
             quickSort(vetor, e, s);
         }
     }
@@ -256,7 +243,7 @@ public class metodosOrdenacao {
         }
     }
 
-    public static void escreveEmArquivo(String texto, String arquivo) throws IOException {
+    public static void escreveEmArquivo(String texto) throws IOException {
         PrintWriter printWriter = new PrintWriter(new FileWriter(arquivo, true));
         printWriter.print(texto);
         printWriter.close();
