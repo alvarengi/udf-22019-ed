@@ -13,29 +13,96 @@ import java.time.format.DateTimeFormatter;
 
 public class metodosOrdenacao {
 
-    static long comparacoesQuickSort = 0;
-    static long trocasQuickSort = 0;
+    static int execucoesDesejadas = 11; 
     static String formato = ".txt";
     static String arquivo = "sortingBenchmark_" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd-MM-yyyy_HH-mm")) + formato;
+
+    static long[][] totalTempoExecucaoBubbleSort = new long[execucoesDesejadas][18];
+    static long[][] totalComparacoesBubbleSort = new long[execucoesDesejadas][18];
+    static long[][] totalTrocasBubbleSort = new long[execucoesDesejadas][18]; 
+
+    static long[][] totalTempoExecucaoSelectionSort = new long[execucoesDesejadas][18]; 
+    static long[][] totalComparacoesSelectionSort = new long[execucoesDesejadas][18]; 
+    static long[][] totalTrocasSelectionSort = new long[execucoesDesejadas][18]; 
+
+    static long[][] totalTempoExecucaoInsertionSort = new long[execucoesDesejadas][18]; 
+    static long[][] totalComparacoesInsertionSort = new long[execucoesDesejadas][18]; 
+    static long[][] totalTrocasInsertionSort = new long[execucoesDesejadas][18]; 
+
+    static long[][] totalTempoExecucaoQuickSort = new long[execucoesDesejadas][18]; 
+    static long[][] totalComparacoesQuickSort = new long[execucoesDesejadas][18]; 
+    static long[][] totalTrocasQuickSort = new long[execucoesDesejadas][18]; 
+
+    static long comparacoesQuickSort = 0;
+    static long trocasQuickSort = 0;
+
+    static int contador = 0;
+    static int executadas = 0;
 
     public static void main(String[] args) {
         Locale.setDefault(new Locale("pt", "BR"));
 
-        for(int i = 0; i <= 10; i++){
-            for(int j = 2; j <= 262144; j *= 2){
+        for(executadas = 0; executadas < execucoesDesejadas; executadas++){
+            comparacoesQuickSort = 0;
+            trocasQuickSort = 0;
+            contador = 0;
 
+            for(int j = 2; j <= 262144; j *= 2){
                 try{
                     escreveEmArquivo("\nsortingBenchmark_" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd-MM-yyyy_HH-mm")) + "\n");                
                 }catch(IOException e){
                     e.printStackTrace();
                 }
-                
+
                 System.out.println("======================================================= v[" + j + "] ======================================================");
                 System.out.println("Ordenação de v[" + j + "] iniciada.");
                 sortingBenchmark(j);
                 System.out.println("========================================================= FIM! =========================================================\n");
+                contador++;
             }
         }
+
+        for(int i = 0; i < execucoesDesejadas; i++){
+            try{
+                escreveEmArquivo("\n===================================================== EXECUÇÃO " + i + " ====================================================\n");  
+            } catch(IOException e){
+                e.printStackTrace();
+            }
+
+            int tamanhoVetor = 2;
+
+            for(int j = 0; j < 18; j++){
+                try{
+                    escreveEmArquivo("----------------------------------------------------- v[" + tamanhoVetor + "] --------------------------------------------------------\n");  
+                    escreveEmArquivo("\nBUBBLE SORT"); 
+                    escreveEmArquivo("\nTempo de execução: " + totalTempoExecucaoBubbleSort[i][j]);  
+                    escreveEmArquivo("\nComparações: " + totalComparacoesBubbleSort[i][j]);         
+                    escreveEmArquivo("\nTrocas: " + totalTrocasBubbleSort[i][j]);
+                    
+                    escreveEmArquivo("\n\nSELECTION SORT");
+                    escreveEmArquivo("\nTempo de execução: " + totalTempoExecucaoSelectionSort[i][j]);  
+                    escreveEmArquivo("\nComparações: " + totalComparacoesSelectionSort[i][j]);         
+                    escreveEmArquivo("\nTrocas: " + totalTrocasSelectionSort[i][j]);
+                    
+                    escreveEmArquivo("\n\nINSERTION SORT");
+                    escreveEmArquivo("\nTempo de execução: " + totalTempoExecucaoInsertionSort[i][j]);  
+                    escreveEmArquivo("\nComparações: " + totalComparacoesInsertionSort[i][j]);         
+                    escreveEmArquivo("\nTrocas: " + totalTrocasInsertionSort[i][j]);
+                    
+                    escreveEmArquivo("\n\nQUICK SORT");
+                    escreveEmArquivo("\nTempo de execução: " + totalTempoExecucaoQuickSort[i][j]);  
+                    escreveEmArquivo("\nComparações: " + totalComparacoesQuickSort[i][j]);         
+                    escreveEmArquivo("\nTrocas: " + totalTrocasQuickSort[i][j]);
+                    escreveEmArquivo("\n");
+                }catch(IOException e){
+                    e.printStackTrace();
+                }
+
+                tamanhoVetor *= 2;
+            }
+        }
+
+        System.out.println("Vetores e métodos utilizados e estatísticas disponíveis em " + arquivo);
     }
 
     public static void sortingBenchmark(int tamanhoVetor){
@@ -97,6 +164,10 @@ public class metodosOrdenacao {
         duracao = System.nanoTime() - duracao;
 
         try{
+            totalTempoExecucaoBubbleSort[executadas][contador] = duracao;
+            totalComparacoesBubbleSort[executadas][contador] = comparacoes;
+            totalTrocasBubbleSort[executadas][contador] = trocas;
+
             escreveEmArquivo("\n\nDuração Bubble Sort: " + duracao + "ns");
             escreveEmArquivo("\nComparações Bubble Sort: " + comparacoes);
             escreveEmArquivo("\nTrocas Bubble Sort: " + trocas);
@@ -127,6 +198,10 @@ public class metodosOrdenacao {
         duracao = System.nanoTime() - duracao;
 
         try{
+            totalTempoExecucaoSelectionSort[executadas][contador] = duracao;
+            totalComparacoesSelectionSort[executadas][contador] = comparacoes;
+            totalTrocasSelectionSort[executadas][contador] = trocas;
+
             escreveEmArquivo("\n\nDuração Selection Sort: " + duracao + "ns");
             escreveEmArquivo("\nComparações Selection Sort: " + comparacoes);
             escreveEmArquivo("\nTrocas Selection Sort: " + trocas);
@@ -159,6 +234,9 @@ public class metodosOrdenacao {
         duracao = System.nanoTime() - duracao;
 
         try{
+            totalTempoExecucaoInsertionSort[executadas][contador] = duracao;
+            totalComparacoesInsertionSort[executadas][contador] = comparacoes;
+            totalTrocasInsertionSort[executadas][contador] = trocas;
             escreveEmArquivo("\n\nDuração Insertion Sort: " + duracao + "ns");
             escreveEmArquivo("\nComparações Insertion Sort: " + comparacoes);
             escreveEmArquivo("\nTrocas Insertion Sort: " + trocas);
@@ -173,6 +251,9 @@ public class metodosOrdenacao {
         duracao = System.nanoTime() - duracao;
 
         try{
+            totalTempoExecucaoQuickSort[executadas][contador] = duracao;
+            totalComparacoesQuickSort[executadas][contador] = comparacoesQuickSort;
+            totalTrocasQuickSort[executadas][contador] = trocasQuickSort;
             escreveEmArquivo("\n\nDuração Quick Sort: " + duracao + "ns");
             escreveEmArquivo("\nComparações Quick Sort: " + comparacoesQuickSort);
             escreveEmArquivo("\nTrocas Quick Sort: " + trocasQuickSort);
