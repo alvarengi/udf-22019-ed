@@ -1,0 +1,4180 @@
+﻿Retirado de sortingBenchmark_08-09-2019_17-23
+===================================================== EXECUÇÃO 0====================================================
+----------------------------------------------------- v[2] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1400
+Comparações: 1
+Trocas: 0
+
+SELECTION SORT
+Tempo de execução: 2000
+Comparações: 1
+Trocas: 0
+
+INSERTION SORT
+Tempo de execução: 4000
+Comparações: 1
+Trocas: 0
+
+QUICK SORT
+Tempo de execução: 8600
+Comparações: 1
+Trocas: 1
+----------------------------------------------------- v[4] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 2000
+Comparações: 6
+Trocas: 5
+
+SELECTION SORT
+Tempo de execução: 1800
+Comparações: 6
+Trocas: 5
+
+INSERTION SORT
+Tempo de execução: 1700
+Comparações: 3
+Trocas: 5
+
+QUICK SORT
+Tempo de execução: 3100
+Comparações: 7
+Trocas: 4
+----------------------------------------------------- v[8] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 3400
+Comparações: 28
+Trocas: 17
+
+SELECTION SORT
+Tempo de execução: 3600
+Comparações: 28
+Trocas: 17
+
+INSERTION SORT
+Tempo de execução: 2500
+Comparações: 7
+Trocas: 17
+
+QUICK SORT
+Tempo de execução: 4900
+Comparações: 25
+Trocas: 13
+----------------------------------------------------- v[16] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 8300
+Comparações: 120
+Trocas: 61
+
+SELECTION SORT
+Tempo de execução: 7500
+Comparações: 120
+Trocas: 61
+
+INSERTION SORT
+Tempo de execução: 4500
+Comparações: 15
+Trocas: 61
+
+QUICK SORT
+Tempo de execução: 7900
+Comparações: 62
+Trocas: 33
+----------------------------------------------------- v[32] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 27800
+Comparações: 496
+Trocas: 213
+
+SELECTION SORT
+Tempo de execução: 22700
+Comparações: 496
+Trocas: 213
+
+INSERTION SORT
+Tempo de execução: 10500
+Comparações: 31
+Trocas: 213
+
+QUICK SORT
+Tempo de execução: 15400
+Comparações: 144
+Trocas: 81
+----------------------------------------------------- v[64] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 120500
+Comparações: 2016
+Trocas: 1070
+
+SELECTION SORT
+Tempo de execução: 312300
+Comparações: 2016
+Trocas: 1070
+
+INSERTION SORT
+Tempo de execução: 137800
+Comparações: 63
+Trocas: 1070
+
+QUICK SORT
+Tempo de execução: 34500
+Comparações: 317
+Trocas: 189
+----------------------------------------------------- v[128] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 429200
+Comparações: 8128
+Trocas: 4099
+
+SELECTION SORT
+Tempo de execução: 651400
+Comparações: 8128
+Trocas: 4099
+
+INSERTION SORT
+Tempo de execução: 441900
+Comparações: 127
+Trocas: 4099
+
+QUICK SORT
+Tempo de execução: 88200
+Comparações: 712
+Trocas: 437
+----------------------------------------------------- v[256] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1719200
+Comparações: 32640
+Trocas: 16327
+
+SELECTION SORT
+Tempo de execução: 1622900
+Comparações: 32640
+Trocas: 16327
+
+INSERTION SORT
+Tempo de execução: 805400
+Comparações: 255
+Trocas: 16327
+
+QUICK SORT
+Tempo de execução: 571500
+Comparações: 1566
+Trocas: 983
+----------------------------------------------------- v[512] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 6631900
+Comparações: 130816
+Trocas: 64434
+
+SELECTION SORT
+Tempo de execução: 6096200
+Comparações: 130816
+Trocas: 64434
+
+INSERTION SORT
+Tempo de execução: 15329400
+Comparações: 511
+Trocas: 64434
+
+QUICK SORT
+Tempo de execução: 86800
+Comparações: 3383
+Trocas: 2167
+----------------------------------------------------- v[1024] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1524800
+Comparações: 523776
+Trocas: 255725
+
+SELECTION SORT
+Tempo de execução: 3700000
+Comparações: 523776
+Trocas: 255725
+
+INSERTION SORT
+Tempo de execução: 1060000
+Comparações: 1023
+Trocas: 255725
+
+QUICK SORT
+Tempo de execução: 132500
+Comparações: 7203
+Trocas: 4815
+----------------------------------------------------- v[2048] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 148507900
+Comparações: 2096128
+Trocas: 1063945
+
+SELECTION SORT
+Tempo de execução: 14870100
+Comparações: 2096128
+Trocas: 1063945
+
+INSERTION SORT
+Tempo de execução: 4028600
+Comparações: 2047
+Trocas: 1063945
+
+QUICK SORT
+Tempo de execução: 271600
+Comparações: 15392
+Trocas: 10606
+----------------------------------------------------- v[4096] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 479884600
+Comparações: 8386560
+Trocas: 4163325
+
+SELECTION SORT
+Tempo de execução: 20763600
+Comparações: 8386560
+Trocas: 4163325
+
+INSERTION SORT
+Tempo de execução: 22595900
+Comparações: 4095
+Trocas: 4163325
+
+QUICK SORT
+Tempo de execução: 578100
+Comparações: 32772
+Trocas: 23196
+----------------------------------------------------- v[8192] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 86639300
+Comparações: 33550336
+Trocas: 16730955
+
+SELECTION SORT
+Tempo de execução: 138259800
+Comparações: 33550336
+Trocas: 16730955
+
+INSERTION SORT
+Tempo de execução: 10178200
+Comparações: 8191
+Trocas: 16730955
+
+QUICK SORT
+Tempo de execução: 779500
+Comparações: 69150
+Trocas: 49981
+----------------------------------------------------- v[16384] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 398925500
+Comparações: 134209536
+Trocas: 67089377
+
+SELECTION SORT
+Tempo de execução: 378228500
+Comparações: 134209536
+Trocas: 67089377
+
+INSERTION SORT
+Tempo de execução: 35734600
+Comparações: 16383
+Trocas: 67089377
+
+QUICK SORT
+Tempo de execução: 1937200
+Comparações: 146226
+Trocas: 107643
+----------------------------------------------------- v[32768] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1621703100
+Comparações: 536854528
+Trocas: 268289271
+
+SELECTION SORT
+Tempo de execução: 1599524700
+Comparações: 536854528
+Trocas: 268289271
+
+INSERTION SORT
+Tempo de execução: 136388500
+Comparações: 32767
+Trocas: 268289271
+
+QUICK SORT
+Tempo de execução: 3555200
+Comparações: 307561
+Trocas: 230590
+----------------------------------------------------- v[65536] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 6658737100
+Comparações: 2147450880
+Trocas: 1069280824
+
+SELECTION SORT
+Tempo de execução: 6553456300
+Comparações: 2147450880
+Trocas: 1069280824
+
+INSERTION SORT
+Tempo de execução: 538584700
+Comparações: 65535
+Trocas: 1069280824
+
+QUICK SORT
+Tempo de execução: 6798400
+Comparações: 644932
+Trocas: 490832
+----------------------------------------------------- v[131072] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 27168314400
+Comparações: 8589869056
+Trocas: 4296282200
+
+SELECTION SORT
+Tempo de execução: 26573172200
+Comparações: 8589869056
+Trocas: 4296282200
+
+INSERTION SORT
+Tempo de execução: 2182736400
+Comparações: 131071
+Trocas: 4296282200
+
+QUICK SORT
+Tempo de execução: 14440800
+Comparações: 1349044
+Trocas: 1040729
+----------------------------------------------------- v[262144] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 108989571400
+Comparações: 34359607296
+Trocas: 17168142197
+
+SELECTION SORT
+Tempo de execução: 105197294500
+Comparações: 34359607296
+Trocas: 17168142197
+
+INSERTION SORT
+Tempo de execução: 8645459900
+Comparações: 262143
+Trocas: 17168142197
+
+QUICK SORT
+Tempo de execução: 30962500
+Comparações: 2827353
+Trocas: 2210395
+
+===================================================== EXECUÇÃO 1====================================================
+----------------------------------------------------- v[2] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 1
+
+SELECTION SORT
+Tempo de execução: 300
+Comparações: 1
+Trocas: 1
+
+INSERTION SORT
+Tempo de execução: 300
+Comparações: 1
+Trocas: 1
+
+QUICK SORT
+Tempo de execução: 1900
+Comparações: 1
+Trocas: 1
+----------------------------------------------------- v[4] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 400
+Comparações: 6
+Trocas: 3
+
+SELECTION SORT
+Tempo de execução: 200
+Comparações: 6
+Trocas: 3
+
+INSERTION SORT
+Tempo de execução: 400
+Comparações: 3
+Trocas: 3
+
+QUICK SORT
+Tempo de execução: 2600
+Comparações: 5
+Trocas: 3
+----------------------------------------------------- v[8] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 400
+Comparações: 28
+Trocas: 11
+
+SELECTION SORT
+Tempo de execução: 400
+Comparações: 28
+Trocas: 11
+
+INSERTION SORT
+Tempo de execução: 400
+Comparações: 7
+Trocas: 11
+
+QUICK SORT
+Tempo de execução: 2600
+Comparações: 18
+Trocas: 11
+----------------------------------------------------- v[16] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 800
+Comparações: 120
+Trocas: 94
+
+SELECTION SORT
+Tempo de execução: 900
+Comparações: 120
+Trocas: 94
+
+INSERTION SORT
+Tempo de execução: 700
+Comparações: 15
+Trocas: 94
+
+QUICK SORT
+Tempo de execução: 3000
+Comparações: 53
+Trocas: 32
+----------------------------------------------------- v[32] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 2800
+Comparações: 496
+Trocas: 250
+
+SELECTION SORT
+Tempo de execução: 2600
+Comparações: 496
+Trocas: 250
+
+INSERTION SORT
+Tempo de execução: 1000
+Comparações: 31
+Trocas: 250
+
+QUICK SORT
+Tempo de execução: 5000
+Comparações: 127
+Trocas: 75
+----------------------------------------------------- v[64] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 7100
+Comparações: 2016
+Trocas: 1062
+
+SELECTION SORT
+Tempo de execução: 7300
+Comparações: 2016
+Trocas: 1062
+
+INSERTION SORT
+Tempo de execução: 2000
+Comparações: 63
+Trocas: 1062
+
+QUICK SORT
+Tempo de execução: 6600
+Comparações: 311
+Trocas: 180
+----------------------------------------------------- v[128] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 27900
+Comparações: 8128
+Trocas: 3944
+
+SELECTION SORT
+Tempo de execução: 25600
+Comparações: 8128
+Trocas: 3944
+
+INSERTION SORT
+Tempo de execução: 3900
+Comparações: 127
+Trocas: 3944
+
+QUICK SORT
+Tempo de execução: 185900
+Comparações: 702
+Trocas: 408
+----------------------------------------------------- v[256] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 103200
+Comparações: 32640
+Trocas: 16883
+
+SELECTION SORT
+Tempo de execução: 211100
+Comparações: 32640
+Trocas: 16883
+
+INSERTION SORT
+Tempo de execução: 11400
+Comparações: 255
+Trocas: 16883
+
+QUICK SORT
+Tempo de execução: 19800
+Comparações: 1537
+Trocas: 949
+----------------------------------------------------- v[512] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 369500
+Comparações: 130816
+Trocas: 64868
+
+SELECTION SORT
+Tempo de execução: 600400
+Comparações: 130816
+Trocas: 64868
+
+INSERTION SORT
+Tempo de execução: 138600
+Comparações: 511
+Trocas: 64868
+
+QUICK SORT
+Tempo de execução: 245400
+Comparações: 3314
+Trocas: 2148
+----------------------------------------------------- v[1024] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1292000
+Comparações: 523776
+Trocas: 267369
+
+SELECTION SORT
+Tempo de execução: 1419700
+Comparações: 523776
+Trocas: 267369
+
+INSERTION SORT
+Tempo de execução: 391100
+Comparações: 1023
+Trocas: 267369
+
+QUICK SORT
+Tempo de execução: 246200
+Comparações: 7091
+Trocas: 4736
+----------------------------------------------------- v[2048] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 4701800
+Comparações: 2096128
+Trocas: 1053138
+
+SELECTION SORT
+Tempo de execução: 4660900
+Comparações: 2096128
+Trocas: 1053138
+
+INSERTION SORT
+Tempo de execução: 752500
+Comparações: 2047
+Trocas: 1053138
+
+QUICK SORT
+Tempo de execução: 424500
+Comparações: 15293
+Trocas: 10540
+----------------------------------------------------- v[4096] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 19843900
+Comparações: 8386560
+Trocas: 4255879
+
+SELECTION SORT
+Tempo de execução: 19962200
+Comparações: 8386560
+Trocas: 4255879
+
+INSERTION SORT
+Tempo de execução: 2525900
+Comparações: 4095
+Trocas: 4255879
+
+QUICK SORT
+Tempo de execução: 715500
+Comparações: 32924
+Trocas: 23284
+----------------------------------------------------- v[8192] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 88266200
+Comparações: 33550336
+Trocas: 16869876
+
+SELECTION SORT
+Tempo de execução: 85327000
+Comparações: 33550336
+Trocas: 16869876
+
+INSERTION SORT
+Tempo de execução: 8874200
+Comparações: 8191
+Trocas: 16869876
+
+QUICK SORT
+Tempo de execução: 1005900
+Comparações: 69232
+Trocas: 49911
+----------------------------------------------------- v[16384] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 380388700
+Comparações: 134209536
+Trocas: 66909468
+
+SELECTION SORT
+Tempo de execução: 384607100
+Comparações: 134209536
+Trocas: 66909468
+
+INSERTION SORT
+Tempo de execução: 34496600
+Comparações: 16383
+Trocas: 66909468
+
+QUICK SORT
+Tempo de execução: 2152900
+Comparações: 146040
+Trocas: 107581
+----------------------------------------------------- v[32768] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1611857400
+Comparações: 536854528
+Trocas: 269414104
+
+SELECTION SORT
+Tempo de execução: 1579872900
+Comparações: 536854528
+Trocas: 269414104
+
+INSERTION SORT
+Tempo de execução: 136990300
+Comparações: 32767
+Trocas: 269414104
+
+QUICK SORT
+Tempo de execução: 3956500
+Comparações: 308449
+Trocas: 231364
+----------------------------------------------------- v[65536] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 6658376700
+Comparações: 2147450880
+Trocas: 1071569166
+
+SELECTION SORT
+Tempo de execução: 6533419000
+Comparações: 2147450880
+Trocas: 1071569166
+
+INSERTION SORT
+Tempo de execução: 540370800
+Comparações: 65535
+Trocas: 1071569166
+
+QUICK SORT
+Tempo de execução: 7070000
+Comparações: 644577
+Trocas: 490376
+----------------------------------------------------- v[131072] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 26910700700
+Comparações: 8589869056
+Trocas: 4279138439
+
+SELECTION SORT
+Tempo de execução: 26305184000
+Comparações: 8589869056
+Trocas: 4279138439
+
+INSERTION SORT
+Tempo de execução: 2157269500
+Comparações: 131071
+Trocas: 4279138439
+
+QUICK SORT
+Tempo de execução: 14438500
+Comparações: 1349874
+Trocas: 1041925
+----------------------------------------------------- v[262144] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 108059507100
+Comparações: 34359607296
+Trocas: 17197415736
+
+SELECTION SORT
+Tempo de execução: 106759971800
+Comparações: 34359607296
+Trocas: 17197415736
+
+INSERTION SORT
+Tempo de execução: 8701859000
+Comparações: 262143
+Trocas: 17197415736
+
+QUICK SORT
+Tempo de execução: 30523700
+Comparações: 2825014
+Trocas: 2208635
+
+===================================================== EXECUÇÃO 2====================================================
+----------------------------------------------------- v[2] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 0
+
+SELECTION SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 0
+
+INSERTION SORT
+Tempo de execução: 300
+Comparações: 1
+Trocas: 0
+
+QUICK SORT
+Tempo de execução: 2100
+Comparações: 1
+Trocas: 1
+----------------------------------------------------- v[4] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 300
+Comparações: 6
+Trocas: 4
+
+SELECTION SORT
+Tempo de execução: 300
+Comparações: 6
+Trocas: 4
+
+INSERTION SORT
+Tempo de execução: 400
+Comparações: 3
+Trocas: 4
+
+QUICK SORT
+Tempo de execução: 2100
+Comparações: 5
+Trocas: 4
+----------------------------------------------------- v[8] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 500
+Comparações: 28
+Trocas: 23
+
+SELECTION SORT
+Tempo de execução: 600
+Comparações: 28
+Trocas: 23
+
+INSERTION SORT
+Tempo de execução: 600
+Comparações: 7
+Trocas: 23
+
+QUICK SORT
+Tempo de execução: 3000
+Comparações: 21
+Trocas: 14
+----------------------------------------------------- v[16] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1100
+Comparações: 120
+Trocas: 64
+
+SELECTION SORT
+Tempo de execução: 1000
+Comparações: 120
+Trocas: 64
+
+INSERTION SORT
+Tempo de execução: 900
+Comparações: 15
+Trocas: 64
+
+QUICK SORT
+Tempo de execução: 3300
+Comparações: 58
+Trocas: 31
+----------------------------------------------------- v[32] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 2400
+Comparações: 496
+Trocas: 229
+
+SELECTION SORT
+Tempo de execução: 2600
+Comparações: 496
+Trocas: 229
+
+INSERTION SORT
+Tempo de execução: 1000
+Comparações: 31
+Trocas: 229
+
+QUICK SORT
+Tempo de execução: 4400
+Comparações: 143
+Trocas: 78
+----------------------------------------------------- v[64] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 7600
+Comparações: 2016
+Trocas: 964
+
+SELECTION SORT
+Tempo de execução: 7900
+Comparações: 2016
+Trocas: 964
+
+INSERTION SORT
+Tempo de execução: 1800
+Comparações: 63
+Trocas: 964
+
+QUICK SORT
+Tempo de execução: 22400
+Comparações: 329
+Trocas: 186
+----------------------------------------------------- v[128] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 27000
+Comparações: 8128
+Trocas: 4288
+
+SELECTION SORT
+Tempo de execução: 25400
+Comparações: 8128
+Trocas: 4288
+
+INSERTION SORT
+Tempo de execução: 4200
+Comparações: 127
+Trocas: 4288
+
+QUICK SORT
+Tempo de execução: 598500
+Comparações: 717
+Trocas: 429
+----------------------------------------------------- v[256] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 99300
+Comparações: 32640
+Trocas: 16970
+
+SELECTION SORT
+Tempo de execução: 420600
+Comparações: 32640
+Trocas: 16970
+
+INSERTION SORT
+Tempo de execução: 11400
+Comparações: 255
+Trocas: 16970
+
+QUICK SORT
+Tempo de execução: 19700
+Comparações: 1547
+Trocas: 965
+----------------------------------------------------- v[512] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 365700
+Comparações: 130816
+Trocas: 65901
+
+SELECTION SORT
+Tempo de execução: 661800
+Comparações: 130816
+Trocas: 65901
+
+INSERTION SORT
+Tempo de execução: 119100
+Comparações: 511
+Trocas: 65901
+
+QUICK SORT
+Tempo de execução: 352200
+Comparações: 3399
+Trocas: 2212
+----------------------------------------------------- v[1024] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1326700
+Comparações: 523776
+Trocas: 265078
+
+SELECTION SORT
+Tempo de execução: 1530100
+Comparações: 523776
+Trocas: 265078
+
+INSERTION SORT
+Tempo de execução: 424400
+Comparações: 1023
+Trocas: 265078
+
+QUICK SORT
+Tempo de execução: 257500
+Comparações: 7218
+Trocas: 4854
+----------------------------------------------------- v[2048] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 4660500
+Comparações: 2096128
+Trocas: 1008228
+
+SELECTION SORT
+Tempo de execução: 4357600
+Comparações: 2096128
+Trocas: 1008228
+
+INSERTION SORT
+Tempo de execução: 910700
+Comparações: 2047
+Trocas: 1008228
+
+QUICK SORT
+Tempo de execução: 474100
+Comparações: 15447
+Trocas: 10662
+----------------------------------------------------- v[4096] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 19531700
+Comparações: 8386560
+Trocas: 4155213
+
+SELECTION SORT
+Tempo de execução: 18811100
+Comparações: 8386560
+Trocas: 4155213
+
+INSERTION SORT
+Tempo de execução: 2392800
+Comparações: 4095
+Trocas: 4155213
+
+QUICK SORT
+Tempo de execução: 616800
+Comparações: 32807
+Trocas: 23170
+----------------------------------------------------- v[8192] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 88061900
+Comparações: 33550336
+Trocas: 16877699
+
+SELECTION SORT
+Tempo de execução: 89701600
+Comparações: 33550336
+Trocas: 16877699
+
+INSERTION SORT
+Tempo de execução: 9046800
+Comparações: 8191
+Trocas: 16877699
+
+QUICK SORT
+Tempo de execução: 1008500
+Comparações: 69307
+Trocas: 50000
+----------------------------------------------------- v[16384] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 390974700
+Comparações: 134209536
+Trocas: 67151233
+
+SELECTION SORT
+Tempo de execução: 383793000
+Comparações: 134209536
+Trocas: 67151233
+
+INSERTION SORT
+Tempo de execução: 34792800
+Comparações: 16383
+Trocas: 67151233
+
+QUICK SORT
+Tempo de execução: 1823000
+Comparações: 146050
+Trocas: 107397
+----------------------------------------------------- v[32768] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1617006600
+Comparações: 536854528
+Trocas: 267927166
+
+SELECTION SORT
+Tempo de execução: 1592202900
+Comparações: 536854528
+Trocas: 267927166
+
+INSERTION SORT
+Tempo de execução: 137238300
+Comparações: 32767
+Trocas: 267927166
+
+QUICK SORT
+Tempo de execução: 4123700
+Comparações: 307516
+Trocas: 230241
+----------------------------------------------------- v[65536] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 6692182700
+Comparações: 2147450880
+Trocas: 1075505074
+
+SELECTION SORT
+Tempo de execução: 6541068800
+Comparações: 2147450880
+Trocas: 1075505074
+
+INSERTION SORT
+Tempo de execução: 545826400
+Comparações: 65535
+Trocas: 1075505074
+
+QUICK SORT
+Tempo de execução: 7599100
+Comparações: 643979
+Trocas: 489715
+----------------------------------------------------- v[131072] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 27154656000
+Comparações: 8589869056
+Trocas: 4314829712
+
+SELECTION SORT
+Tempo de execução: 26443848300
+Comparações: 8589869056
+Trocas: 4314829712
+
+INSERTION SORT
+Tempo de execução: 2180773500
+Comparações: 131071
+Trocas: 4314829712
+
+QUICK SORT
+Tempo de execução: 14895400
+Comparações: 1351137
+Trocas: 1042454
+----------------------------------------------------- v[262144] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 109805566400
+Comparações: 34359607296
+Trocas: 17173037857
+
+SELECTION SORT
+Tempo de execução: 105419097500
+Comparações: 34359607296
+Trocas: 17173037857
+
+INSERTION SORT
+Tempo de execução: 8697028200
+Comparações: 262143
+Trocas: 17173037857
+
+QUICK SORT
+Tempo de execução: 30931800
+Comparações: 2835819
+Trocas: 2219141
+
+===================================================== EXECUÇÃO 3====================================================
+----------------------------------------------------- v[2] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 300
+Comparações: 1
+Trocas: 1
+
+SELECTION SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 1
+
+INSERTION SORT
+Tempo de execução: 300
+Comparações: 1
+Trocas: 1
+
+QUICK SORT
+Tempo de execução: 2600
+Comparações: 1
+Trocas: 1
+----------------------------------------------------- v[4] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 400
+Comparações: 6
+Trocas: 4
+
+SELECTION SORT
+Tempo de execução: 200
+Comparações: 6
+Trocas: 4
+
+INSERTION SORT
+Tempo de execução: 700
+Comparações: 3
+Trocas: 4
+
+QUICK SORT
+Tempo de execução: 4000
+Comparações: 7
+Trocas: 4
+----------------------------------------------------- v[8] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 500
+Comparações: 28
+Trocas: 12
+
+SELECTION SORT
+Tempo de execução: 500
+Comparações: 28
+Trocas: 12
+
+INSERTION SORT
+Tempo de execução: 500
+Comparações: 7
+Trocas: 12
+
+QUICK SORT
+Tempo de execução: 3100
+Comparações: 23
+Trocas: 12
+----------------------------------------------------- v[16] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1000
+Comparações: 120
+Trocas: 56
+
+SELECTION SORT
+Tempo de execução: 1100
+Comparações: 120
+Trocas: 56
+
+INSERTION SORT
+Tempo de execução: 700
+Comparações: 15
+Trocas: 56
+
+QUICK SORT
+Tempo de execução: 3800
+Comparações: 60
+Trocas: 32
+----------------------------------------------------- v[32] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 2500
+Comparações: 496
+Trocas: 255
+
+SELECTION SORT
+Tempo de execução: 2700
+Comparações: 496
+Trocas: 255
+
+INSERTION SORT
+Tempo de execução: 1200
+Comparações: 31
+Trocas: 255
+
+QUICK SORT
+Tempo de execução: 4600
+Comparações: 138
+Trocas: 76
+----------------------------------------------------- v[64] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 7600
+Comparações: 2016
+Trocas: 954
+
+SELECTION SORT
+Tempo de execução: 7800
+Comparações: 2016
+Trocas: 954
+
+INSERTION SORT
+Tempo de execução: 2000
+Comparações: 63
+Trocas: 954
+
+QUICK SORT
+Tempo de execução: 7300
+Comparações: 314
+Trocas: 180
+----------------------------------------------------- v[128] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 28200
+Comparações: 8128
+Trocas: 4241
+
+SELECTION SORT
+Tempo de execução: 25700
+Comparações: 8128
+Trocas: 4241
+
+INSERTION SORT
+Tempo de execução: 4100
+Comparações: 127
+Trocas: 4241
+
+QUICK SORT
+Tempo de execução: 11200
+Comparações: 707
+Trocas: 432
+----------------------------------------------------- v[256] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 102000
+Comparações: 32640
+Trocas: 16513
+
+SELECTION SORT
+Tempo de execução: 411700
+Comparações: 32640
+Trocas: 16513
+
+INSERTION SORT
+Tempo de execução: 11200
+Comparações: 255
+Trocas: 16513
+
+QUICK SORT
+Tempo de execução: 20200
+Comparações: 1555
+Trocas: 980
+----------------------------------------------------- v[512] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 380900
+Comparações: 130816
+Trocas: 70228
+
+SELECTION SORT
+Tempo de execução: 666600
+Comparações: 130816
+Trocas: 70228
+
+INSERTION SORT
+Tempo de execução: 135500
+Comparações: 511
+Trocas: 70228
+
+QUICK SORT
+Tempo de execução: 209900
+Comparações: 3316
+Trocas: 2151
+----------------------------------------------------- v[1024] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1252900
+Comparações: 523776
+Trocas: 268779
+
+SELECTION SORT
+Tempo de execução: 1436300
+Comparações: 523776
+Trocas: 268779
+
+INSERTION SORT
+Tempo de execução: 332500
+Comparações: 1023
+Trocas: 268779
+
+QUICK SORT
+Tempo de execução: 252300
+Comparações: 7217
+Trocas: 4809
+----------------------------------------------------- v[2048] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 4663000
+Comparações: 2096128
+Trocas: 1034708
+
+SELECTION SORT
+Tempo de execução: 5004600
+Comparações: 2096128
+Trocas: 1034708
+
+INSERTION SORT
+Tempo de execução: 750900
+Comparações: 2047
+Trocas: 1034708
+
+QUICK SORT
+Tempo de execução: 444400
+Comparações: 15438
+Trocas: 10580
+----------------------------------------------------- v[4096] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 19474800
+Comparações: 8386560
+Trocas: 4165795
+
+SELECTION SORT
+Tempo de execução: 18992500
+Comparações: 8386560
+Trocas: 4165795
+
+INSERTION SORT
+Tempo de execução: 2642600
+Comparações: 4095
+Trocas: 4165795
+
+QUICK SORT
+Tempo de execução: 635500
+Comparações: 32616
+Trocas: 22955
+----------------------------------------------------- v[8192] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 86700400
+Comparações: 33550336
+Trocas: 16567357
+
+SELECTION SORT
+Tempo de execução: 85287600
+Comparações: 33550336
+Trocas: 16567357
+
+INSERTION SORT
+Tempo de execução: 8777800
+Comparações: 8191
+Trocas: 16567357
+
+QUICK SORT
+Tempo de execução: 1006400
+Comparações: 68786
+Trocas: 49567
+----------------------------------------------------- v[16384] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 390086400
+Comparações: 134209536
+Trocas: 66292214
+
+SELECTION SORT
+Tempo de execução: 389102200
+Comparações: 134209536
+Trocas: 66292214
+
+INSERTION SORT
+Tempo de execução: 34049000
+Comparações: 16383
+Trocas: 66292214
+
+QUICK SORT
+Tempo de execução: 1739600
+Comparações: 145842
+Trocas: 107403
+----------------------------------------------------- v[32768] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1629798100
+Comparações: 536854528
+Trocas: 267800129
+
+SELECTION SORT
+Tempo de execução: 1587821300
+Comparações: 536854528
+Trocas: 267800129
+
+INSERTION SORT
+Tempo de execução: 135420900
+Comparações: 32767
+Trocas: 267800129
+
+QUICK SORT
+Tempo de execução: 3817400
+Comparações: 307618
+Trocas: 230626
+----------------------------------------------------- v[65536] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 6690397300
+Comparações: 2147450880
+Trocas: 1078593622
+
+SELECTION SORT
+Tempo de execução: 6550596100
+Comparações: 2147450880
+Trocas: 1078593622
+
+INSERTION SORT
+Tempo de execução: 544013600
+Comparações: 65535
+Trocas: 1078593622
+
+QUICK SORT
+Tempo de execução: 6670300
+Comparações: 644945
+Trocas: 490685
+----------------------------------------------------- v[131072] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 26983587300
+Comparações: 8589869056
+Trocas: 4287383823
+
+SELECTION SORT
+Tempo de execução: 26313705000
+Comparações: 8589869056
+Trocas: 4287383823
+
+INSERTION SORT
+Tempo de execução: 2166259200
+Comparações: 131071
+Trocas: 4287383823
+
+QUICK SORT
+Tempo de execução: 14987900
+Comparações: 1356084
+Trocas: 1048004
+----------------------------------------------------- v[262144] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 108250346200
+Comparações: 34359607296
+Trocas: 17197854567
+
+SELECTION SORT
+Tempo de execução: 105128758200
+Comparações: 34359607296
+Trocas: 17197854567
+
+INSERTION SORT
+Tempo de execução: 8664062100
+Comparações: 262143
+Trocas: 17197854567
+
+QUICK SORT
+Tempo de execução: 30553200
+Comparações: 2836286
+Trocas: 2220125
+
+===================================================== EXECUÇÃO 4====================================================
+----------------------------------------------------- v[2] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 0
+
+SELECTION SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 0
+
+INSERTION SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 0
+
+QUICK SORT
+Tempo de execução: 2500
+Comparações: 1
+Trocas: 1
+----------------------------------------------------- v[4] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 400
+Comparações: 6
+Trocas: 2
+
+SELECTION SORT
+Tempo de execução: 300
+Comparações: 6
+Trocas: 2
+
+INSERTION SORT
+Tempo de execução: 400
+Comparações: 3
+Trocas: 2
+
+QUICK SORT
+Tempo de execução: 2800
+Comparações: 7
+Trocas: 4
+----------------------------------------------------- v[8] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 500
+Comparações: 28
+Trocas: 13
+
+SELECTION SORT
+Tempo de execução: 600
+Comparações: 28
+Trocas: 13
+
+INSERTION SORT
+Tempo de execução: 700
+Comparações: 7
+Trocas: 13
+
+QUICK SORT
+Tempo de execução: 2800
+Comparações: 22
+Trocas: 11
+----------------------------------------------------- v[16] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1100
+Comparações: 120
+Trocas: 60
+
+SELECTION SORT
+Tempo de execução: 1100
+Comparações: 120
+Trocas: 60
+
+INSERTION SORT
+Tempo de execução: 700
+Comparações: 15
+Trocas: 60
+
+QUICK SORT
+Tempo de execução: 3400
+Comparações: 55
+Trocas: 29
+----------------------------------------------------- v[32] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 2800
+Comparações: 496
+Trocas: 270
+
+SELECTION SORT
+Tempo de execução: 2500
+Comparações: 496
+Trocas: 270
+
+INSERTION SORT
+Tempo de execução: 1000
+Comparações: 31
+Trocas: 270
+
+QUICK SORT
+Tempo de execução: 4300
+Comparações: 138
+Trocas: 75
+----------------------------------------------------- v[64] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 8700
+Comparações: 2016
+Trocas: 1001
+
+SELECTION SORT
+Tempo de execução: 8100
+Comparações: 2016
+Trocas: 1001
+
+INSERTION SORT
+Tempo de execução: 1900
+Comparações: 63
+Trocas: 1001
+
+QUICK SORT
+Tempo de execução: 6700
+Comparações: 315
+Trocas: 181
+----------------------------------------------------- v[128] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 25400
+Comparações: 8128
+Trocas: 3529
+
+SELECTION SORT
+Tempo de execução: 27600
+Comparações: 8128
+Trocas: 3529
+
+INSERTION SORT
+Tempo de execução: 3900
+Comparações: 127
+Trocas: 3529
+
+QUICK SORT
+Tempo de execução: 10900
+Comparações: 705
+Trocas: 419
+----------------------------------------------------- v[256] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 97200
+Comparações: 32640
+Trocas: 16752
+
+SELECTION SORT
+Tempo de execução: 412400
+Comparações: 32640
+Trocas: 16752
+
+INSERTION SORT
+Tempo de execução: 11400
+Comparações: 255
+Trocas: 16752
+
+QUICK SORT
+Tempo de execução: 19600
+Comparações: 1535
+Trocas: 957
+----------------------------------------------------- v[512] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 374400
+Comparações: 130816
+Trocas: 66072
+
+SELECTION SORT
+Tempo de execução: 676400
+Comparações: 130816
+Trocas: 66072
+
+INSERTION SORT
+Tempo de execução: 128600
+Comparações: 511
+Trocas: 66072
+
+QUICK SORT
+Tempo de execução: 214100
+Comparações: 3325
+Trocas: 2162
+----------------------------------------------------- v[1024] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 2326300
+Comparações: 523776
+Trocas: 256797
+
+SELECTION SORT
+Tempo de execução: 1400000
+Comparações: 523776
+Trocas: 256797
+
+INSERTION SORT
+Tempo de execução: 406400
+Comparações: 1023
+Trocas: 256797
+
+QUICK SORT
+Tempo de execução: 262900
+Comparações: 7168
+Trocas: 4819
+----------------------------------------------------- v[2048] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 4706300
+Comparações: 2096128
+Trocas: 1050902
+
+SELECTION SORT
+Tempo de execução: 4380900
+Comparações: 2096128
+Trocas: 1050902
+
+INSERTION SORT
+Tempo de execução: 810300
+Comparações: 2047
+Trocas: 1050902
+
+QUICK SORT
+Tempo de execução: 409200
+Comparações: 15428
+Trocas: 10716
+----------------------------------------------------- v[4096] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 19670600
+Comparações: 8386560
+Trocas: 4139843
+
+SELECTION SORT
+Tempo de execução: 18614900
+Comparações: 8386560
+Trocas: 4139843
+
+INSERTION SORT
+Tempo de execução: 2589600
+Comparações: 4095
+Trocas: 4139843
+
+QUICK SORT
+Tempo de execução: 672800
+Comparações: 32836
+Trocas: 23243
+----------------------------------------------------- v[8192] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 86617900
+Comparações: 33550336
+Trocas: 16912141
+
+SELECTION SORT
+Tempo de execução: 88657100
+Comparações: 33550336
+Trocas: 16912141
+
+INSERTION SORT
+Tempo de execução: 8916000
+Comparações: 8191
+Trocas: 16912141
+
+QUICK SORT
+Tempo de execução: 1033800
+Comparações: 69712
+Trocas: 50442
+----------------------------------------------------- v[16384] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 380404200
+Comparações: 134209536
+Trocas: 67405779
+
+SELECTION SORT
+Tempo de execução: 378617400
+Comparações: 134209536
+Trocas: 67405779
+
+INSERTION SORT
+Tempo de execução: 34809600
+Comparações: 16383
+Trocas: 67405779
+
+QUICK SORT
+Tempo de execução: 2100000
+Comparações: 146312
+Trocas: 107775
+----------------------------------------------------- v[32768] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1624276900
+Comparações: 536854528
+Trocas: 267387316
+
+SELECTION SORT
+Tempo de execução: 1586116000
+Comparações: 536854528
+Trocas: 267387316
+
+INSERTION SORT
+Tempo de execução: 135559900
+Comparações: 32767
+Trocas: 267387316
+
+QUICK SORT
+Tempo de execução: 3523800
+Comparações: 308637
+Trocas: 231527
+----------------------------------------------------- v[65536] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 6679844700
+Comparações: 2147450880
+Trocas: 1072944797
+
+SELECTION SORT
+Tempo de execução: 6515180700
+Comparações: 2147450880
+Trocas: 1072944797
+
+INSERTION SORT
+Tempo de execução: 542173100
+Comparações: 65535
+Trocas: 1072944797
+
+QUICK SORT
+Tempo de execução: 7209900
+Comparações: 645311
+Trocas: 490954
+----------------------------------------------------- v[131072] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 26960799500
+Comparações: 8589869056
+Trocas: 4308696315
+
+SELECTION SORT
+Tempo de execução: 26264769800
+Comparações: 8589869056
+Trocas: 4308696315
+
+INSERTION SORT
+Tempo de execução: 2171180700
+Comparações: 131071
+Trocas: 4308696315
+
+QUICK SORT
+Tempo de execução: 14521200
+Comparações: 1346639
+Trocas: 1038092
+----------------------------------------------------- v[262144] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 108282235400
+Comparações: 34359607296
+Trocas: 17142058893
+
+SELECTION SORT
+Tempo de execução: 105322222500
+Comparações: 34359607296
+Trocas: 17142058893
+
+INSERTION SORT
+Tempo de execução: 8633479700
+Comparações: 262143
+Trocas: 17142058893
+
+QUICK SORT
+Tempo de execução: 30496600
+Comparações: 2830531
+Trocas: 2213238
+
+===================================================== EXECUÇÃO 5====================================================
+----------------------------------------------------- v[2] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 300
+Comparações: 1
+Trocas: 1
+
+SELECTION SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 1
+
+INSERTION SORT
+Tempo de execução: 300
+Comparações: 1
+Trocas: 1
+
+QUICK SORT
+Tempo de execução: 2100
+Comparações: 1
+Trocas: 1
+----------------------------------------------------- v[4] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 500
+Comparações: 6
+Trocas: 4
+
+SELECTION SORT
+Tempo de execução: 300
+Comparações: 6
+Trocas: 4
+
+INSERTION SORT
+Tempo de execução: 500
+Comparações: 3
+Trocas: 4
+
+QUICK SORT
+Tempo de execução: 2500
+Comparações: 5
+Trocas: 4
+----------------------------------------------------- v[8] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 400
+Comparações: 28
+Trocas: 22
+
+SELECTION SORT
+Tempo de execução: 500
+Comparações: 28
+Trocas: 22
+
+INSERTION SORT
+Tempo de execução: 600
+Comparações: 7
+Trocas: 22
+
+QUICK SORT
+Tempo de execução: 2700
+Comparações: 21
+Trocas: 12
+----------------------------------------------------- v[16] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 900
+Comparações: 120
+Trocas: 42
+
+SELECTION SORT
+Tempo de execução: 800
+Comparações: 120
+Trocas: 42
+
+INSERTION SORT
+Tempo de execução: 700
+Comparações: 15
+Trocas: 42
+
+QUICK SORT
+Tempo de execução: 3300
+Comparações: 52
+Trocas: 27
+----------------------------------------------------- v[32] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 2500
+Comparações: 496
+Trocas: 269
+
+SELECTION SORT
+Tempo de execução: 2500
+Comparações: 496
+Trocas: 269
+
+INSERTION SORT
+Tempo de execução: 1000
+Comparações: 31
+Trocas: 269
+
+QUICK SORT
+Tempo de execução: 4500
+Comparações: 133
+Trocas: 74
+----------------------------------------------------- v[64] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 7600
+Comparações: 2016
+Trocas: 977
+
+SELECTION SORT
+Tempo de execução: 7700
+Comparações: 2016
+Trocas: 977
+
+INSERTION SORT
+Tempo de execução: 1900
+Comparações: 63
+Trocas: 977
+
+QUICK SORT
+Tempo de execução: 6200
+Comparações: 320
+Trocas: 186
+----------------------------------------------------- v[128] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 27100
+Comparações: 8128
+Trocas: 4148
+
+SELECTION SORT
+Tempo de execução: 26400
+Comparações: 8128
+Trocas: 4148
+
+INSERTION SORT
+Tempo de execução: 4200
+Comparações: 127
+Trocas: 4148
+
+QUICK SORT
+Tempo de execução: 10400
+Comparações: 704
+Trocas: 429
+----------------------------------------------------- v[256] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 96800
+Comparações: 32640
+Trocas: 14711
+
+SELECTION SORT
+Tempo de execução: 421900
+Comparações: 32640
+Trocas: 14711
+
+INSERTION SORT
+Tempo de execução: 10400
+Comparações: 255
+Trocas: 14711
+
+QUICK SORT
+Tempo de execução: 20100
+Comparações: 1540
+Trocas: 974
+----------------------------------------------------- v[512] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 363600
+Comparações: 130816
+Trocas: 65714
+
+SELECTION SORT
+Tempo de execução: 645900
+Comparações: 130816
+Trocas: 65714
+
+INSERTION SORT
+Tempo de execução: 123100
+Comparações: 511
+Trocas: 65714
+
+QUICK SORT
+Tempo de execução: 212600
+Comparações: 3380
+Trocas: 2202
+----------------------------------------------------- v[1024] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1269100
+Comparações: 523776
+Trocas: 266695
+
+SELECTION SORT
+Tempo de execução: 1382000
+Comparações: 523776
+Trocas: 266695
+
+INSERTION SORT
+Tempo de execução: 379100
+Comparações: 1023
+Trocas: 266695
+
+QUICK SORT
+Tempo de execução: 341100
+Comparações: 7274
+Trocas: 4889
+----------------------------------------------------- v[2048] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 4609700
+Comparações: 2096128
+Trocas: 1061184
+
+SELECTION SORT
+Tempo de execução: 4373900
+Comparações: 2096128
+Trocas: 1061184
+
+INSERTION SORT
+Tempo de execução: 795200
+Comparações: 2047
+Trocas: 1061184
+
+QUICK SORT
+Tempo de execução: 411500
+Comparações: 15441
+Trocas: 10654
+----------------------------------------------------- v[4096] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 19428700
+Comparações: 8386560
+Trocas: 4234137
+
+SELECTION SORT
+Tempo de execução: 19219400
+Comparações: 8386560
+Trocas: 4234137
+
+INSERTION SORT
+Tempo de execução: 2342100
+Comparações: 4095
+Trocas: 4234137
+
+QUICK SORT
+Tempo de execução: 616100
+Comparações: 32631
+Trocas: 23043
+----------------------------------------------------- v[8192] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 87042000
+Comparações: 33550336
+Trocas: 16928980
+
+SELECTION SORT
+Tempo de execução: 85070600
+Comparações: 33550336
+Trocas: 16928980
+
+INSERTION SORT
+Tempo de execução: 8936800
+Comparações: 8191
+Trocas: 16928980
+
+QUICK SORT
+Tempo de execução: 1045700
+Comparações: 69490
+Trocas: 50244
+----------------------------------------------------- v[16384] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 383147600
+Comparações: 134209536
+Trocas: 66913181
+
+SELECTION SORT
+Tempo de execução: 379685300
+Comparações: 134209536
+Trocas: 66913181
+
+INSERTION SORT
+Tempo de execução: 34657200
+Comparações: 16383
+Trocas: 66913181
+
+QUICK SORT
+Tempo de execução: 1879400
+Comparações: 145734
+Trocas: 107242
+----------------------------------------------------- v[32768] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1620468600
+Comparações: 536854528
+Trocas: 270321652
+
+SELECTION SORT
+Tempo de execução: 1590395000
+Comparações: 536854528
+Trocas: 270321652
+
+INSERTION SORT
+Tempo de execução: 137327800
+Comparações: 32767
+Trocas: 270321652
+
+QUICK SORT
+Tempo de execução: 3517800
+Comparações: 306071
+Trocas: 228843
+----------------------------------------------------- v[65536] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 6657654200
+Comparações: 2147450880
+Trocas: 1067722281
+
+SELECTION SORT
+Tempo de execução: 6541920700
+Comparações: 2147450880
+Trocas: 1067722281
+
+INSERTION SORT
+Tempo de execução: 537696800
+Comparações: 65535
+Trocas: 1067722281
+
+QUICK SORT
+Tempo de execução: 7292800
+Comparações: 641503
+Trocas: 487153
+----------------------------------------------------- v[131072] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 26971312600
+Comparações: 8589869056
+Trocas: 4298957998
+
+SELECTION SORT
+Tempo de execução: 26280067600
+Comparações: 8589869056
+Trocas: 4298957998
+
+INSERTION SORT
+Tempo de execução: 2170650500
+Comparações: 131071
+Trocas: 4298957998
+
+QUICK SORT
+Tempo de execução: 14942600
+Comparações: 1346665
+Trocas: 1038225
+----------------------------------------------------- v[262144] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 108185068000
+Comparações: 34359607296
+Trocas: 17199379917
+
+SELECTION SORT
+Tempo de execução: 105172308800
+Comparações: 34359607296
+Trocas: 17199379917
+
+INSERTION SORT
+Tempo de execução: 8676364800
+Comparações: 262143
+Trocas: 17199379917
+
+QUICK SORT
+Tempo de execução: 30122800
+Comparações: 2819812
+Trocas: 2203258
+
+===================================================== EXECUÇÃO 6====================================================
+----------------------------------------------------- v[2] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 300
+Comparações: 1
+Trocas: 0
+
+SELECTION SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 0
+
+INSERTION SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 0
+
+QUICK SORT
+Tempo de execução: 2100
+Comparações: 1
+Trocas: 1
+----------------------------------------------------- v[4] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 300
+Comparações: 6
+Trocas: 3
+
+SELECTION SORT
+Tempo de execução: 300
+Comparações: 6
+Trocas: 3
+
+INSERTION SORT
+Tempo de execução: 500
+Comparações: 3
+Trocas: 3
+
+QUICK SORT
+Tempo de execução: 1900
+Comparações: 6
+Trocas: 4
+----------------------------------------------------- v[8] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 400
+Comparações: 28
+Trocas: 7
+
+SELECTION SORT
+Tempo de execução: 600
+Comparações: 28
+Trocas: 7
+
+INSERTION SORT
+Tempo de execução: 600
+Comparações: 7
+Trocas: 7
+
+QUICK SORT
+Tempo de execução: 2800
+Comparações: 16
+Trocas: 10
+----------------------------------------------------- v[16] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 900
+Comparações: 120
+Trocas: 56
+
+SELECTION SORT
+Tempo de execução: 1000
+Comparações: 120
+Trocas: 56
+
+INSERTION SORT
+Tempo de execução: 600
+Comparações: 15
+Trocas: 56
+
+QUICK SORT
+Tempo de execução: 3000
+Comparações: 50
+Trocas: 29
+----------------------------------------------------- v[32] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 2200
+Comparações: 496
+Trocas: 202
+
+SELECTION SORT
+Tempo de execução: 2400
+Comparações: 496
+Trocas: 202
+
+INSERTION SORT
+Tempo de execução: 900
+Comparações: 31
+Trocas: 202
+
+QUICK SORT
+Tempo de execução: 4400
+Comparações: 123
+Trocas: 71
+----------------------------------------------------- v[64] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 8800
+Comparações: 2016
+Trocas: 958
+
+SELECTION SORT
+Tempo de execução: 8700
+Comparações: 2016
+Trocas: 958
+
+INSERTION SORT
+Tempo de execução: 2000
+Comparações: 63
+Trocas: 958
+
+QUICK SORT
+Tempo de execução: 6700
+Comparações: 300
+Trocas: 172
+----------------------------------------------------- v[128] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 28600
+Comparações: 8128
+Trocas: 4050
+
+SELECTION SORT
+Tempo de execução: 28300
+Comparações: 8128
+Trocas: 4050
+
+INSERTION SORT
+Tempo de execução: 4200
+Comparações: 127
+Trocas: 4050
+
+QUICK SORT
+Tempo de execução: 10800
+Comparações: 688
+Trocas: 414
+----------------------------------------------------- v[256] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 95500
+Comparações: 32640
+Trocas: 15950
+
+SELECTION SORT
+Tempo de execução: 539600
+Comparações: 32640
+Trocas: 15950
+
+INSERTION SORT
+Tempo de execução: 11100
+Comparações: 255
+Trocas: 15950
+
+QUICK SORT
+Tempo de execução: 21800
+Comparações: 1506
+Trocas: 938
+----------------------------------------------------- v[512] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 353300
+Comparações: 130816
+Trocas: 66333
+
+SELECTION SORT
+Tempo de execução: 654000
+Comparações: 130816
+Trocas: 66333
+
+INSERTION SORT
+Tempo de execução: 110500
+Comparações: 511
+Trocas: 66333
+
+QUICK SORT
+Tempo de execução: 151600
+Comparações: 3331
+Trocas: 2157
+----------------------------------------------------- v[1024] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1256000
+Comparações: 523776
+Trocas: 258707
+
+SELECTION SORT
+Tempo de execução: 1459700
+Comparações: 523776
+Trocas: 258707
+
+INSERTION SORT
+Tempo de execução: 365200
+Comparações: 1023
+Trocas: 258707
+
+QUICK SORT
+Tempo de execução: 249800
+Comparações: 7208
+Trocas: 4813
+----------------------------------------------------- v[2048] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 4585800
+Comparações: 2096128
+Trocas: 1037238
+
+SELECTION SORT
+Tempo de execução: 4358500
+Comparações: 2096128
+Trocas: 1037238
+
+INSERTION SORT
+Tempo de execução: 776900
+Comparações: 2047
+Trocas: 1037238
+
+QUICK SORT
+Tempo de execução: 417500
+Comparações: 15437
+Trocas: 10630
+----------------------------------------------------- v[4096] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 19969200
+Comparações: 8386560
+Trocas: 4142376
+
+SELECTION SORT
+Tempo de execução: 18369500
+Comparações: 8386560
+Trocas: 4142376
+
+INSERTION SORT
+Tempo de execução: 2393500
+Comparações: 4095
+Trocas: 4142376
+
+QUICK SORT
+Tempo de execução: 616700
+Comparações: 32964
+Trocas: 23295
+----------------------------------------------------- v[8192] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 86860600
+Comparações: 33550336
+Trocas: 16764847
+
+SELECTION SORT
+Tempo de execução: 85492400
+Comparações: 33550336
+Trocas: 16764847
+
+INSERTION SORT
+Tempo de execução: 8692000
+Comparações: 8191
+Trocas: 16764847
+
+QUICK SORT
+Tempo de execução: 1401200
+Comparações: 69403
+Trocas: 50047
+----------------------------------------------------- v[16384] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 380297900
+Comparações: 134209536
+Trocas: 67199661
+
+SELECTION SORT
+Tempo de execução: 378133700
+Comparações: 134209536
+Trocas: 67199661
+
+INSERTION SORT
+Tempo de execução: 34743400
+Comparações: 16383
+Trocas: 67199661
+
+QUICK SORT
+Tempo de execução: 2196600
+Comparações: 146182
+Trocas: 107508
+----------------------------------------------------- v[32768] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1617077800
+Comparações: 536854528
+Trocas: 269427084
+
+SELECTION SORT
+Tempo de execução: 1590669800
+Comparações: 536854528
+Trocas: 269427084
+
+INSERTION SORT
+Tempo de execução: 136717900
+Comparações: 32767
+Trocas: 269427084
+
+QUICK SORT
+Tempo de execução: 3543900
+Comparações: 305937
+Trocas: 228616
+----------------------------------------------------- v[65536] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 6647153500
+Comparações: 2147450880
+Trocas: 1068824495
+
+SELECTION SORT
+Tempo de execução: 6543582900
+Comparações: 2147450880
+Trocas: 1068824495
+
+INSERTION SORT
+Tempo de execução: 538254400
+Comparações: 65535
+Trocas: 1068824495
+
+QUICK SORT
+Tempo de execução: 7027800
+Comparações: 642534
+Trocas: 487935
+----------------------------------------------------- v[131072] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 27047259200
+Comparações: 8589869056
+Trocas: 4306976200
+
+SELECTION SORT
+Tempo de execução: 26324005600
+Comparações: 8589869056
+Trocas: 4306976200
+
+INSERTION SORT
+Tempo de execução: 2171263200
+Comparações: 131071
+Trocas: 4306976200
+
+QUICK SORT
+Tempo de execução: 14707600
+Comparações: 1353789
+Trocas: 1044785
+----------------------------------------------------- v[262144] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 108196690900
+Comparações: 34359607296
+Trocas: 17188442587
+
+SELECTION SORT
+Tempo de execução: 105202377500
+Comparações: 34359607296
+Trocas: 17188442587
+
+INSERTION SORT
+Tempo de execução: 8661323800
+Comparações: 262143
+Trocas: 17188442587
+
+QUICK SORT
+Tempo de execução: 30077400
+Comparações: 2821287
+Trocas: 2203628
+
+===================================================== EXECUÇÃO 7====================================================
+----------------------------------------------------- v[2] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 300
+Comparações: 1
+Trocas: 1
+
+SELECTION SORT
+Tempo de execução: 300
+Comparações: 1
+Trocas: 1
+
+INSERTION SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 1
+
+QUICK SORT
+Tempo de execução: 2300
+Comparações: 1
+Trocas: 1
+----------------------------------------------------- v[4] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 500
+Comparações: 6
+Trocas: 4
+
+SELECTION SORT
+Tempo de execução: 300
+Comparações: 6
+Trocas: 4
+
+INSERTION SORT
+Tempo de execução: 400
+Comparações: 3
+Trocas: 4
+
+QUICK SORT
+Tempo de execução: 2500
+Comparações: 5
+Trocas: 4
+----------------------------------------------------- v[8] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 400
+Comparações: 28
+Trocas: 24
+
+SELECTION SORT
+Tempo de execução: 500
+Comparações: 28
+Trocas: 24
+
+INSERTION SORT
+Tempo de execução: 500
+Comparações: 7
+Trocas: 24
+
+QUICK SORT
+Tempo de execução: 2600
+Comparações: 18
+Trocas: 12
+----------------------------------------------------- v[16] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1000
+Comparações: 120
+Trocas: 57
+
+SELECTION SORT
+Tempo de execução: 1000
+Comparações: 120
+Trocas: 57
+
+INSERTION SORT
+Tempo de execução: 700
+Comparações: 15
+Trocas: 57
+
+QUICK SORT
+Tempo de execução: 3200
+Comparações: 49
+Trocas: 31
+----------------------------------------------------- v[32] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 2600
+Comparações: 496
+Trocas: 264
+
+SELECTION SORT
+Tempo de execução: 2300
+Comparações: 496
+Trocas: 264
+
+INSERTION SORT
+Tempo de execução: 1000
+Comparações: 31
+Trocas: 264
+
+QUICK SORT
+Tempo de execução: 4000
+Comparações: 122
+Trocas: 75
+----------------------------------------------------- v[64] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 8200
+Comparações: 2016
+Trocas: 1069
+
+SELECTION SORT
+Tempo de execução: 7800
+Comparações: 2016
+Trocas: 1069
+
+INSERTION SORT
+Tempo de execução: 1800
+Comparações: 63
+Trocas: 1069
+
+QUICK SORT
+Tempo de execução: 6500
+Comparações: 307
+Trocas: 188
+----------------------------------------------------- v[128] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 27200
+Comparações: 8128
+Trocas: 4192
+
+SELECTION SORT
+Tempo de execução: 26900
+Comparações: 8128
+Trocas: 4192
+
+INSERTION SORT
+Tempo de execução: 4300
+Comparações: 127
+Trocas: 4192
+
+QUICK SORT
+Tempo de execução: 11300
+Comparações: 702
+Trocas: 426
+----------------------------------------------------- v[256] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 100700
+Comparações: 32640
+Trocas: 16636
+
+SELECTION SORT
+Tempo de execução: 357200
+Comparações: 32640
+Trocas: 16636
+
+INSERTION SORT
+Tempo de execução: 11100
+Comparações: 255
+Trocas: 16636
+
+QUICK SORT
+Tempo de execução: 20100
+Comparações: 1565
+Trocas: 980
+----------------------------------------------------- v[512] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 363600
+Comparações: 130816
+Trocas: 66686
+
+SELECTION SORT
+Tempo de execução: 659200
+Comparações: 130816
+Trocas: 66686
+
+INSERTION SORT
+Tempo de execução: 240200
+Comparações: 511
+Trocas: 66686
+
+QUICK SORT
+Tempo de execução: 214000
+Comparações: 3367
+Trocas: 2195
+----------------------------------------------------- v[1024] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1222300
+Comparações: 523776
+Trocas: 268331
+
+SELECTION SORT
+Tempo de execução: 1242200
+Comparações: 523776
+Trocas: 268331
+
+INSERTION SORT
+Tempo de execução: 368900
+Comparações: 1023
+Trocas: 268331
+
+QUICK SORT
+Tempo de execução: 262300
+Comparações: 7240
+Trocas: 4865
+----------------------------------------------------- v[2048] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 4847600
+Comparações: 2096128
+Trocas: 1043237
+
+SELECTION SORT
+Tempo de execução: 4046400
+Comparações: 2096128
+Trocas: 1043237
+
+INSERTION SORT
+Tempo de execução: 790000
+Comparações: 2047
+Trocas: 1043237
+
+QUICK SORT
+Tempo de execução: 428700
+Comparações: 15422
+Trocas: 10655
+----------------------------------------------------- v[4096] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 19532800
+Comparações: 8386560
+Trocas: 4127231
+
+SELECTION SORT
+Tempo de execução: 18398900
+Comparações: 8386560
+Trocas: 4127231
+
+INSERTION SORT
+Tempo de execução: 2271000
+Comparações: 4095
+Trocas: 4127231
+
+QUICK SORT
+Tempo de execução: 583400
+Comparações: 32752
+Trocas: 23164
+----------------------------------------------------- v[8192] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 86380800
+Comparações: 33550336
+Trocas: 16630978
+
+SELECTION SORT
+Tempo de execução: 85169900
+Comparações: 33550336
+Trocas: 16630978
+
+INSERTION SORT
+Tempo de execução: 8696500
+Comparações: 8191
+Trocas: 16630978
+
+QUICK SORT
+Tempo de execução: 978200
+Comparações: 69160
+Trocas: 49988
+----------------------------------------------------- v[16384] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 381704000
+Comparações: 134209536
+Trocas: 67098421
+
+SELECTION SORT
+Tempo de execução: 373457900
+Comparações: 134209536
+Trocas: 67098421
+
+INSERTION SORT
+Tempo de execução: 34291700
+Comparações: 16383
+Trocas: 67098421
+
+QUICK SORT
+Tempo de execução: 2008900
+Comparações: 146309
+Trocas: 107912
+----------------------------------------------------- v[32768] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1634839000
+Comparações: 536854528
+Trocas: 268329183
+
+SELECTION SORT
+Tempo de execução: 1594733300
+Comparações: 536854528
+Trocas: 268329183
+
+INSERTION SORT
+Tempo de execução: 141918100
+Comparações: 32767
+Trocas: 268329183
+
+QUICK SORT
+Tempo de execução: 3840600
+Comparações: 308045
+Trocas: 231066
+----------------------------------------------------- v[65536] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 6695267700
+Comparações: 2147450880
+Trocas: 1070082666
+
+SELECTION SORT
+Tempo de execução: 6556380100
+Comparações: 2147450880
+Trocas: 1070082666
+
+INSERTION SORT
+Tempo de execução: 540907500
+Comparações: 65535
+Trocas: 1070082666
+
+QUICK SORT
+Tempo de execução: 6991100
+Comparações: 643397
+Trocas: 489373
+----------------------------------------------------- v[131072] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 27092039600
+Comparações: 8589869056
+Trocas: 4292656749
+
+SELECTION SORT
+Tempo de execução: 26402464400
+Comparações: 8589869056
+Trocas: 4292656749
+
+INSERTION SORT
+Tempo de execução: 2172466700
+Comparações: 131071
+Trocas: 4292656749
+
+QUICK SORT
+Tempo de execução: 14740100
+Comparações: 1343890
+Trocas: 1035358
+----------------------------------------------------- v[262144] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 108584441700
+Comparações: 34359607296
+Trocas: 17172379024
+
+SELECTION SORT
+Tempo de execução: 105272899100
+Comparações: 34359607296
+Trocas: 17172379024
+
+INSERTION SORT
+Tempo de execução: 8695754600
+Comparações: 262143
+Trocas: 17172379024
+
+QUICK SORT
+Tempo de execução: 31399300
+Comparações: 2819685
+Trocas: 2202702
+
+===================================================== EXECUÇÃO 8====================================================
+----------------------------------------------------- v[2] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 300
+Comparações: 1
+Trocas: 0
+
+SELECTION SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 0
+
+INSERTION SORT
+Tempo de execução: 300
+Comparações: 1
+Trocas: 0
+
+QUICK SORT
+Tempo de execução: 102500
+Comparações: 1
+Trocas: 1
+----------------------------------------------------- v[4] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 400
+Comparações: 6
+Trocas: 2
+
+SELECTION SORT
+Tempo de execução: 300
+Comparações: 6
+Trocas: 2
+
+INSERTION SORT
+Tempo de execução: 400
+Comparações: 3
+Trocas: 2
+
+QUICK SORT
+Tempo de execução: 2600
+Comparações: 6
+Trocas: 4
+----------------------------------------------------- v[8] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 500
+Comparações: 28
+Trocas: 6
+
+SELECTION SORT
+Tempo de execução: 500
+Comparações: 28
+Trocas: 6
+
+INSERTION SORT
+Tempo de execução: 600
+Comparações: 7
+Trocas: 6
+
+QUICK SORT
+Tempo de execução: 2700
+Comparações: 21
+Trocas: 11
+----------------------------------------------------- v[16] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 900
+Comparações: 120
+Trocas: 52
+
+SELECTION SORT
+Tempo de execução: 1000
+Comparações: 120
+Trocas: 52
+
+INSERTION SORT
+Tempo de execução: 600
+Comparações: 15
+Trocas: 52
+
+QUICK SORT
+Tempo de execução: 3400
+Comparações: 59
+Trocas: 30
+----------------------------------------------------- v[32] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 2600
+Comparações: 496
+Trocas: 290
+
+SELECTION SORT
+Tempo de execução: 2200
+Comparações: 496
+Trocas: 290
+
+INSERTION SORT
+Tempo de execução: 1100
+Comparações: 31
+Trocas: 290
+
+QUICK SORT
+Tempo de execução: 4700
+Comparações: 143
+Trocas: 80
+----------------------------------------------------- v[64] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 7500
+Comparações: 2016
+Trocas: 872
+
+SELECTION SORT
+Tempo de execução: 8500
+Comparações: 2016
+Trocas: 872
+
+INSERTION SORT
+Tempo de execução: 1700
+Comparações: 63
+Trocas: 872
+
+QUICK SORT
+Tempo de execução: 12800
+Comparações: 322
+Trocas: 187
+----------------------------------------------------- v[128] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 26500
+Comparações: 8128
+Trocas: 4047
+
+SELECTION SORT
+Tempo de execução: 26800
+Comparações: 8128
+Trocas: 4047
+
+INSERTION SORT
+Tempo de execução: 4000
+Comparações: 127
+Trocas: 4047
+
+QUICK SORT
+Tempo de execução: 12800
+Comparações: 721
+Trocas: 438
+----------------------------------------------------- v[256] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 95200
+Comparações: 32640
+Trocas: 15610
+
+SELECTION SORT
+Tempo de execução: 402200
+Comparações: 32640
+Trocas: 15610
+
+INSERTION SORT
+Tempo de execução: 10800
+Comparações: 255
+Trocas: 15610
+
+QUICK SORT
+Tempo de execução: 20200
+Comparações: 1549
+Trocas: 975
+----------------------------------------------------- v[512] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 356400
+Comparações: 130816
+Trocas: 64430
+
+SELECTION SORT
+Tempo de execução: 666200
+Comparações: 130816
+Trocas: 64430
+
+INSERTION SORT
+Tempo de execução: 124400
+Comparações: 511
+Trocas: 64430
+
+QUICK SORT
+Tempo de execução: 213100
+Comparações: 3350
+Trocas: 2177
+----------------------------------------------------- v[1024] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1251500
+Comparações: 523776
+Trocas: 262329
+
+SELECTION SORT
+Tempo de execução: 1616000
+Comparações: 523776
+Trocas: 262329
+
+INSERTION SORT
+Tempo de execução: 457300
+Comparações: 1023
+Trocas: 262329
+
+QUICK SORT
+Tempo de execução: 684500
+Comparações: 7237
+Trocas: 4845
+----------------------------------------------------- v[2048] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 4679800
+Comparações: 2096128
+Trocas: 1057281
+
+SELECTION SORT
+Tempo de execução: 4359000
+Comparações: 2096128
+Trocas: 1057281
+
+INSERTION SORT
+Tempo de execução: 830400
+Comparações: 2047
+Trocas: 1057281
+
+QUICK SORT
+Tempo de execução: 165800
+Comparações: 15483
+Trocas: 10677
+----------------------------------------------------- v[4096] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 19595500
+Comparações: 8386560
+Trocas: 4211168
+
+SELECTION SORT
+Tempo de execução: 19936900
+Comparações: 8386560
+Trocas: 4211168
+
+INSERTION SORT
+Tempo de execução: 2545100
+Comparações: 4095
+Trocas: 4211168
+
+QUICK SORT
+Tempo de execução: 612100
+Comparações: 32649
+Trocas: 23027
+----------------------------------------------------- v[8192] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 86252000
+Comparações: 33550336
+Trocas: 16774812
+
+SELECTION SORT
+Tempo de execução: 87350700
+Comparações: 33550336
+Trocas: 16774812
+
+INSERTION SORT
+Tempo de execução: 8903700
+Comparações: 8191
+Trocas: 16774812
+
+QUICK SORT
+Tempo de execução: 933800
+Comparações: 69102
+Trocas: 49871
+----------------------------------------------------- v[16384] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 389499400
+Comparações: 134209536
+Trocas: 66969053
+
+SELECTION SORT
+Tempo de execução: 382795500
+Comparações: 134209536
+Trocas: 66969053
+
+INSERTION SORT
+Tempo de execução: 34762900
+Comparações: 16383
+Trocas: 66969053
+
+QUICK SORT
+Tempo de execução: 1931800
+Comparações: 146134
+Trocas: 107651
+----------------------------------------------------- v[32768] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1639230100
+Comparações: 536854528
+Trocas: 269329925
+
+SELECTION SORT
+Tempo de execução: 1596593800
+Comparações: 536854528
+Trocas: 269329925
+
+INSERTION SORT
+Tempo de execução: 137491400
+Comparações: 32767
+Trocas: 269329925
+
+QUICK SORT
+Tempo de execução: 3557800
+Comparações: 304858
+Trocas: 227792
+----------------------------------------------------- v[65536] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 6677167800
+Comparações: 2147450880
+Trocas: 1079213034
+
+SELECTION SORT
+Tempo de execução: 6534954700
+Comparações: 2147450880
+Trocas: 1079213034
+
+INSERTION SORT
+Tempo de execução: 547512800
+Comparações: 65535
+Trocas: 1079213034
+
+QUICK SORT
+Tempo de execução: 7059400
+Comparações: 643303
+Trocas: 489372
+----------------------------------------------------- v[131072] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 27087753100
+Comparações: 8589869056
+Trocas: 4289107116
+
+SELECTION SORT
+Tempo de execução: 26424281500
+Comparações: 8589869056
+Trocas: 4289107116
+
+INSERTION SORT
+Tempo de execução: 2186532900
+Comparações: 131071
+Trocas: 4289107116
+
+QUICK SORT
+Tempo de execução: 16497700
+Comparações: 1348769
+Trocas: 1040457
+----------------------------------------------------- v[262144] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 108960665000
+Comparações: 34359607296
+Trocas: 17196803397
+
+SELECTION SORT
+Tempo de execução: 105235537100
+Comparações: 34359607296
+Trocas: 17196803397
+
+INSERTION SORT
+Tempo de execução: 8656740200
+Comparações: 262143
+Trocas: 17196803397
+
+QUICK SORT
+Tempo de execução: 29787500
+Comparações: 2821899
+Trocas: 2205609
+
+===================================================== EXECUÇÃO 9====================================================
+----------------------------------------------------- v[2] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 300
+Comparações: 1
+Trocas: 0
+
+SELECTION SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 0
+
+INSERTION SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 0
+
+QUICK SORT
+Tempo de execução: 2400
+Comparações: 1
+Trocas: 1
+----------------------------------------------------- v[4] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 300
+Comparações: 6
+Trocas: 6
+
+SELECTION SORT
+Tempo de execução: 200
+Comparações: 6
+Trocas: 6
+
+INSERTION SORT
+Tempo de execução: 300
+Comparações: 3
+Trocas: 6
+
+QUICK SORT
+Tempo de execução: 2500
+Comparações: 7
+Trocas: 5
+----------------------------------------------------- v[8] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 400
+Comparações: 28
+Trocas: 13
+
+SELECTION SORT
+Tempo de execução: 600
+Comparações: 28
+Trocas: 13
+
+INSERTION SORT
+Tempo de execução: 400
+Comparações: 7
+Trocas: 13
+
+QUICK SORT
+Tempo de execução: 2900
+Comparações: 24
+Trocas: 13
+----------------------------------------------------- v[16] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1000
+Comparações: 120
+Trocas: 72
+
+SELECTION SORT
+Tempo de execução: 1000
+Comparações: 120
+Trocas: 72
+
+INSERTION SORT
+Tempo de execução: 700
+Comparações: 15
+Trocas: 72
+
+QUICK SORT
+Tempo de execução: 3500
+Comparações: 61
+Trocas: 32
+----------------------------------------------------- v[32] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 2600
+Comparações: 496
+Trocas: 241
+
+SELECTION SORT
+Tempo de execução: 2900
+Comparações: 496
+Trocas: 241
+
+INSERTION SORT
+Tempo de execução: 1100
+Comparações: 31
+Trocas: 241
+
+QUICK SORT
+Tempo de execução: 4200
+Comparações: 131
+Trocas: 72
+----------------------------------------------------- v[64] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 8300
+Comparações: 2016
+Trocas: 1032
+
+SELECTION SORT
+Tempo de execução: 7700
+Comparações: 2016
+Trocas: 1032
+
+INSERTION SORT
+Tempo de execução: 1800
+Comparações: 63
+Trocas: 1032
+
+QUICK SORT
+Tempo de execução: 6600
+Comparações: 317
+Trocas: 185
+----------------------------------------------------- v[128] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 28600
+Comparações: 8128
+Trocas: 4220
+
+SELECTION SORT
+Tempo de execução: 24500
+Comparações: 8128
+Trocas: 4220
+
+INSERTION SORT
+Tempo de execução: 256300
+Comparações: 127
+Trocas: 4220
+
+QUICK SORT
+Tempo de execução: 11200
+Comparações: 708
+Trocas: 421
+----------------------------------------------------- v[256] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 102300
+Comparações: 32640
+Trocas: 16506
+
+SELECTION SORT
+Tempo de execução: 391500
+Comparações: 32640
+Trocas: 16506
+
+INSERTION SORT
+Tempo de execução: 11200
+Comparações: 255
+Trocas: 16506
+
+QUICK SORT
+Tempo de execução: 20100
+Comparações: 1555
+Trocas: 966
+----------------------------------------------------- v[512] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 360200
+Comparações: 130816
+Trocas: 66573
+
+SELECTION SORT
+Tempo de execução: 642700
+Comparações: 130816
+Trocas: 66573
+
+INSERTION SORT
+Tempo de execução: 189600
+Comparações: 511
+Trocas: 66573
+
+QUICK SORT
+Tempo de execução: 187100
+Comparações: 3368
+Trocas: 2162
+----------------------------------------------------- v[1024] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1222500
+Comparações: 523776
+Trocas: 254392
+
+SELECTION SORT
+Tempo de execução: 1600900
+Comparações: 523776
+Trocas: 254392
+
+INSERTION SORT
+Tempo de execução: 315900
+Comparações: 1023
+Trocas: 254392
+
+QUICK SORT
+Tempo de execução: 242400
+Comparações: 7251
+Trocas: 4849
+----------------------------------------------------- v[2048] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 4560400
+Comparações: 2096128
+Trocas: 1050363
+
+SELECTION SORT
+Tempo de execução: 4423600
+Comparações: 2096128
+Trocas: 1050363
+
+INSERTION SORT
+Tempo de execução: 802800
+Comparações: 2047
+Trocas: 1050363
+
+QUICK SORT
+Tempo de execução: 213300
+Comparações: 15480
+Trocas: 10663
+----------------------------------------------------- v[4096] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 19465700
+Comparações: 8386560
+Trocas: 4246080
+
+SELECTION SORT
+Tempo de execução: 18922700
+Comparações: 8386560
+Trocas: 4246080
+
+INSERTION SORT
+Tempo de execução: 2347600
+Comparações: 4095
+Trocas: 4246080
+
+QUICK SORT
+Tempo de execução: 620000
+Comparações: 32855
+Trocas: 23211
+----------------------------------------------------- v[8192] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 86082000
+Comparações: 33550336
+Trocas: 16837704
+
+SELECTION SORT
+Tempo de execução: 85190700
+Comparações: 33550336
+Trocas: 16837704
+
+INSERTION SORT
+Tempo de execução: 8805700
+Comparações: 8191
+Trocas: 16837704
+
+QUICK SORT
+Tempo de execução: 1269400
+Comparações: 69289
+Trocas: 50000
+----------------------------------------------------- v[16384] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 400448800
+Comparações: 134209536
+Trocas: 66485389
+
+SELECTION SORT
+Tempo de execução: 381466100
+Comparações: 134209536
+Trocas: 66485389
+
+INSERTION SORT
+Tempo de execução: 33804400
+Comparações: 16383
+Trocas: 66485389
+
+QUICK SORT
+Tempo de execução: 1500100
+Comparações: 146305
+Trocas: 107829
+----------------------------------------------------- v[32768] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1622185500
+Comparações: 536854528
+Trocas: 267963329
+
+SELECTION SORT
+Tempo de execução: 1577833500
+Comparações: 536854528
+Trocas: 267963329
+
+INSERTION SORT
+Tempo de execução: 135245700
+Comparações: 32767
+Trocas: 267963329
+
+QUICK SORT
+Tempo de execução: 3274800
+Comparações: 308600
+Trocas: 231408
+----------------------------------------------------- v[65536] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 6660468300
+Comparações: 2147450880
+Trocas: 1075689896
+
+SELECTION SORT
+Tempo de execução: 6520658500
+Comparações: 2147450880
+Trocas: 1075689896
+
+INSERTION SORT
+Tempo de execução: 542596400
+Comparações: 65535
+Trocas: 1075689896
+
+QUICK SORT
+Tempo de execução: 6548500
+Comparações: 640287
+Trocas: 486082
+----------------------------------------------------- v[131072] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 27006451200
+Comparações: 8589869056
+Trocas: 4296921747
+
+SELECTION SORT
+Tempo de execução: 26330204800
+Comparações: 8589869056
+Trocas: 4296921747
+
+INSERTION SORT
+Tempo de execução: 2162384400
+Comparações: 131071
+Trocas: 4296921747
+
+QUICK SORT
+Tempo de execução: 13861300
+Comparações: 1346097
+Trocas: 1037503
+----------------------------------------------------- v[262144] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 107978378200
+Comparações: 34359607296
+Trocas: 17135473027
+
+SELECTION SORT
+Tempo de execução: 105202339300
+Comparações: 34359607296
+Trocas: 17135473027
+
+INSERTION SORT
+Tempo de execução: 8685112400
+Comparações: 262143
+Trocas: 17135473027
+
+QUICK SORT
+Tempo de execução: 29237900
+Comparações: 2816378
+Trocas: 2199111
+
+===================================================== EXECUÇÃO 10====================================================
+----------------------------------------------------- v[2] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 0
+
+SELECTION SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 0
+
+INSERTION SORT
+Tempo de execução: 200
+Comparações: 1
+Trocas: 0
+
+QUICK SORT
+Tempo de execução: 1500
+Comparações: 1
+Trocas: 1
+----------------------------------------------------- v[4] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 300
+Comparações: 6
+Trocas: 2
+
+SELECTION SORT
+Tempo de execução: 200
+Comparações: 6
+Trocas: 2
+
+INSERTION SORT
+Tempo de execução: 300
+Comparações: 3
+Trocas: 2
+
+QUICK SORT
+Tempo de execução: 1100
+Comparações: 6
+Trocas: 4
+----------------------------------------------------- v[8] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 300
+Comparações: 28
+Trocas: 12
+
+SELECTION SORT
+Tempo de execução: 400
+Comparações: 28
+Trocas: 12
+
+INSERTION SORT
+Tempo de execução: 300
+Comparações: 7
+Trocas: 12
+
+QUICK SORT
+Tempo de execução: 1400
+Comparações: 21
+Trocas: 12
+----------------------------------------------------- v[16] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 900
+Comparações: 120
+Trocas: 53
+
+SELECTION SORT
+Tempo de execução: 900
+Comparações: 120
+Trocas: 53
+
+INSERTION SORT
+Tempo de execução: 600
+Comparações: 15
+Trocas: 53
+
+QUICK SORT
+Tempo de execução: 2600
+Comparações: 51
+Trocas: 29
+----------------------------------------------------- v[32] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 2300
+Comparações: 496
+Trocas: 309
+
+SELECTION SORT
+Tempo de execução: 2300
+Comparações: 496
+Trocas: 309
+
+INSERTION SORT
+Tempo de execução: 1000
+Comparações: 31
+Trocas: 309
+
+QUICK SORT
+Tempo de execução: 5400
+Comparações: 137
+Trocas: 76
+----------------------------------------------------- v[64] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 7700
+Comparações: 2016
+Trocas: 1020
+
+SELECTION SORT
+Tempo de execução: 8100
+Comparações: 2016
+Trocas: 1020
+
+INSERTION SORT
+Tempo de execução: 1800
+Comparações: 63
+Trocas: 1020
+
+QUICK SORT
+Tempo de execução: 5100
+Comparações: 310
+Trocas: 181
+----------------------------------------------------- v[128] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 28600
+Comparações: 8128
+Trocas: 4550
+
+SELECTION SORT
+Tempo de execução: 26800
+Comparações: 8128
+Trocas: 4550
+
+INSERTION SORT
+Tempo de execução: 4200
+Comparações: 127
+Trocas: 4550
+
+QUICK SORT
+Tempo de execução: 10800
+Comparações: 708
+Trocas: 440
+----------------------------------------------------- v[256] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 100100
+Comparações: 32640
+Trocas: 16349
+
+SELECTION SORT
+Tempo de execução: 99400
+Comparações: 32640
+Trocas: 16349
+
+INSERTION SORT
+Tempo de execução: 11100
+Comparações: 255
+Trocas: 16349
+
+QUICK SORT
+Tempo de execução: 19700
+Comparações: 1546
+Trocas: 981
+----------------------------------------------------- v[512] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 377600
+Comparações: 130816
+Trocas: 69148
+
+SELECTION SORT
+Tempo de execução: 328300
+Comparações: 130816
+Trocas: 69148
+
+INSERTION SORT
+Tempo de execução: 39000
+Comparações: 511
+Trocas: 69148
+
+QUICK SORT
+Tempo de execução: 39900
+Comparações: 3357
+Trocas: 2178
+----------------------------------------------------- v[1024] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1220300
+Comparações: 523776
+Trocas: 266840
+
+SELECTION SORT
+Tempo de execução: 1168400
+Comparações: 523776
+Trocas: 266840
+
+INSERTION SORT
+Tempo de execução: 140100
+Comparações: 1023
+Trocas: 266840
+
+QUICK SORT
+Tempo de execução: 81300
+Comparações: 7199
+Trocas: 4823
+----------------------------------------------------- v[2048] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 4722600
+Comparações: 2096128
+Trocas: 1044975
+
+SELECTION SORT
+Tempo de execução: 4221900
+Comparações: 2096128
+Trocas: 1044975
+
+INSERTION SORT
+Tempo de execução: 533300
+Comparações: 2047
+Trocas: 1044975
+
+QUICK SORT
+Tempo de execução: 169200
+Comparações: 15286
+Trocas: 10499
+----------------------------------------------------- v[4096] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 19556300
+Comparações: 8386560
+Trocas: 4187528
+
+SELECTION SORT
+Tempo de execução: 18247600
+Comparações: 8386560
+Trocas: 4187528
+
+INSERTION SORT
+Tempo de execução: 2167400
+Comparações: 4095
+Trocas: 4187528
+
+QUICK SORT
+Tempo de execução: 349700
+Comparações: 32623
+Trocas: 22995
+----------------------------------------------------- v[8192] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 85498000
+Comparações: 33550336
+Trocas: 16814196
+
+SELECTION SORT
+Tempo de execução: 85006800
+Comparações: 33550336
+Trocas: 16814196
+
+INSERTION SORT
+Tempo de execução: 8501800
+Comparações: 8191
+Trocas: 16814196
+
+QUICK SORT
+Tempo de execução: 717500
+Comparações: 68711
+Trocas: 49453
+----------------------------------------------------- v[16384] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 374820900
+Comparações: 134209536
+Trocas: 66913218
+
+SELECTION SORT
+Tempo de execução: 369708900
+Comparações: 134209536
+Trocas: 66913218
+
+INSERTION SORT
+Tempo de execução: 34545200
+Comparações: 16383
+Trocas: 66913218
+
+QUICK SORT
+Tempo de execução: 1603200
+Comparações: 145850
+Trocas: 107393
+----------------------------------------------------- v[32768] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 1603893000
+Comparações: 536854528
+Trocas: 268870434
+
+SELECTION SORT
+Tempo de execução: 1584933000
+Comparações: 536854528
+Trocas: 268870434
+
+INSERTION SORT
+Tempo de execução: 135546200
+Comparações: 32767
+Trocas: 268870434
+
+QUICK SORT
+Tempo de execução: 3424900
+Comparações: 307223
+Trocas: 230220
+----------------------------------------------------- v[65536] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 6657991200
+Comparações: 2147450880
+Trocas: 1075310441
+
+SELECTION SORT
+Tempo de execução: 6519378300
+Comparações: 2147450880
+Trocas: 1075310441
+
+INSERTION SORT
+Tempo de execução: 543322300
+Comparações: 65535
+Trocas: 1075310441
+
+QUICK SORT
+Tempo de execução: 7035200
+Comparações: 642670
+Trocas: 488541
+----------------------------------------------------- v[131072] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 26993665600
+Comparações: 8589869056
+Trocas: 4300112356
+
+SELECTION SORT
+Tempo de execução: 26304863200
+Comparações: 8589869056
+Trocas: 4300112356
+
+INSERTION SORT
+Tempo de execução: 2166496100
+Comparações: 131071
+Trocas: 4300112356
+
+QUICK SORT
+Tempo de execução: 14190000
+Comparações: 1349361
+Trocas: 1041119
+----------------------------------------------------- v[262144] --------------------------------------------------------
+
+BUBBLE SORT
+Tempo de execução: 108202794300
+Comparações: 34359607296
+Trocas: 17180976547
+
+SELECTION SORT
+Tempo de execução: 105287681200
+Comparações: 34359607296
+Trocas: 17180976547
+
+INSERTION SORT
+Tempo de execução: 8650373400
+Comparações: 262143
+Trocas: 17180976547
+
+QUICK SORT
+Tempo de execução: 29676500
+Comparações: 2824716
+Trocas: 2208173
