@@ -48,3 +48,13 @@ hs_err_pid*
 *.txt
 *.docx
 *.tmp
+
+### NetBeans ###
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
