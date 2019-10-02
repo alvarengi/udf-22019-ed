@@ -6,6 +6,7 @@ public class avaliacaoExpressoes {
 
 	public Pilha infixaParaNpr(String expressao){
 		Pilha pilha = new Pilha();
+		Pilha saida = new Pilha();
 		expressao = expressao.trim();
 
 		for(int i = 0; i < expressao.length(); i++){
@@ -22,23 +23,31 @@ public class avaliacaoExpressoes {
 				case '*':
 				case '/':
 					if(!pilha.vazia() && (getPrioridadeOperador((char) pilha.top()) >= getPrioridadeOperador(expressao.charAt(i))))
-						System.out.println(pilha.pop());
+						saida.push(pilha.pop());
 					pilha.push(expressao.charAt(i));
 				break;
 
 				case ')':
-					while(!pilha.vazia() && expressao.charAt(i) != '(') System.out.println(pilha.pop());
+					while(!pilha.vazia()) {
+						char atual = (char) pilha.pop();
+						
+						if(atual != '('){
+							saida.push(atual);
+						} else { 
+							break;
+						}
+					}
 				break;
 
 				default:
-				System.out.println(expressao.charAt(i));
+				saida.push(expressao.charAt(i));
 			}
 		}
 
 		while(!pilha.vazia())
-			System.out.println(pilha.pop());
+			saida.push(pilha.pop());
 
-		return pilha;
+		return saida;
 	}
 
 	public static int getPrioridadeOperador(char operando){
