@@ -9,7 +9,7 @@ public class Pilha {
         topo = null;
         quantElementos = 0;
     }
-
+    
     public boolean vazia() {
         return (topo == null);
     }

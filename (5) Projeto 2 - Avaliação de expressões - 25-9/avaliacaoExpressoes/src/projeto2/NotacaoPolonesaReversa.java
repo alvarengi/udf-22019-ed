@@ -5,6 +5,7 @@ public class NotacaoPolonesaReversa {
     public Pilha infixaParaNpr(String expressao) {
         Pilha pilha = new Pilha();
         Pilha saida = new Pilha();
+        
         expressao = expressao.trim();
 
         for (int i = 0; i < expressao.length(); i++) {
@@ -45,7 +46,7 @@ public class NotacaoPolonesaReversa {
         while (!pilha.vazia()) {
             saida.push(pilha.pop());
         }
-
+        
         return saida;
     }
 
@@ -71,7 +72,7 @@ public class NotacaoPolonesaReversa {
         return prioridade;
     }
 
-    public void calcularNpr(Pilha nprAResolver) {
+    public int calcularNpr(Pilha nprAResolver) {
         nprAResolver = Pilha.inverterPilha(nprAResolver);
         
         Pilha operandos = new Pilha();
@@ -116,7 +117,7 @@ public class NotacaoPolonesaReversa {
                     operandos.push((int) Character.getNumericValue(atual));
             }
         }
-
-        System.out.println(operandos.top());
+        
+        return (int) operandos.top();
     }
 }
