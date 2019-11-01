@@ -46,9 +46,11 @@ public class Fila {
         Nodo nodoQueSaiu = this.fila[this.inicio];
         this.fila[this.inicio] = null;
         this.inicio += 1;
+        
         if (this.inicio == this.tamanho) {
             this.inicio = 0;
         }
+        
         total--;
 
         return nodoQueSaiu;
@@ -65,14 +67,14 @@ public class Fila {
             this.fila[posicaoAtual] = nodoAEmpilhar;
             this.total++;
         } else {
-            System.out.println("Fila cheia!");
+            System.out.println("\nFila cheia!");
         }
 
     }
 
     public void imprimirFila() {
         if (this.isVazia()) {
-            System.out.println("Fila vazia!");
+            System.out.println("\nFila vazia!");
         } else {
             System.out.print("\nFila = [ ");
 
