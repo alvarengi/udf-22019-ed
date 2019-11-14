@@ -1,0 +1,19 @@
+1. Bubble Sort: os maiores elemento "borbulham" para o fim do array
+Selection Sort: pego o menor elemento do array e troco com o elemento do início, depois pego o outro menor elemento do array e troco com o da 2ª posição
+Insertion Sort: insiro o elemento já na posição correta de forma que o array continue ordenado
+Quick Sort: seleciono um pivô, "parto" o array em "esquerda" e "direita" e ordeno de forma com que os menores elementos fiquem a esquerda e os maiores a direita. O particionamento é feito de forma recursiva.  
+
+2. 1 2 3 3
+
+3. 5 1 7 9
+
+4. 4.jpg
+
+5. Prefixada: 9 2 5 4 8 7 11
+
+6. Infixada: 2 4 5 7 8 9 11
+
+-. Pósfixada: 4 7 8 5 2 11 9
+
+7. Gray da árvore: 2; altura: 5; folhas: 4, 7, 11
+
